@@ -1,0 +1,114 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-weight: 600;
+  src: url('../fonts/poppins-v22-latin-600.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/poppins-v22-latin-600italic.woff2') format('woff2');
+}
+
+body {
+  background: #F8F9FF;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.navbar-layout {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  height: 100px;
+  background: #F8F9FF;
+  margin-right: 50px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+  width: 179px;
+  height: 32px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  
+}
+.nav-menu p {
+  font: 600 16px 'Poppins';
+  color: #009379;
+  text-align: center;
+}
+
+.navButtons-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 443px;
+  height: 60px;
+  margin-right: 0px;
+}
+
+.nav-button, .nav-button1 {
+  font: 600 16px 'Poppins';
+  text-align: center;
+  white-space: nowrap;
+  transition: background 0.3s ease-in-out;
+}
+.nav-button { color: #fff; }
+.nav-button1 { color: #009379; }
+
+.primary-btn, .secondary-btn,.third-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 50px;
+  gap: 8px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+}
+.primary-btn { width: 202px; background: #E5F4F2; }
+.third-btn { width: 202px; background: #FFFFFF; }
+
+.secondary-btn { width: 221px; background: #009379; }
+
+@media (max-width: 744px) {
+  .navbar-layout { width: 744px; padding: 20px 50px; }
+  .nav-logo { margin: 0 auto; }
+  .secondary-btn { display: none; }
+  .navButtons-layout { justify-content: flex-end; flex-grow: 1; margin-right: 50px; }
+  .primary-btn { margin-right: -100px; }
+  .nav-button2 { display: block; margin-left: auto; }
+  .nav-menu p { display: none; }
+
+}
+
+@media (max-width: 375px) {
+  .navbar-layout {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    padding: 20px;
+  }
+ 
+  .nav-logo {     margin-left: 180px;
+    display: flex; justify-content: center; }
+  .nav-menu, .navButtons-layout, .nav-button, .nav-button1, .primary-btn, .secondary-btn {
+    display: none;
+  }
+}

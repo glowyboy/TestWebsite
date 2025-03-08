@@ -1,0 +1,763 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 600;
+    src: url('../../assets/poppins-v22-latin-600.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../../assets/poppins-v22-latin-600italic.woff2') format('woff2');
+  }
+  /* mulish-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/mulish-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../../assets/mulish-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../assets/mulish-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../assets/mulish-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../assets/mulish-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* mulish-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../assets/mulish-v13-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  body {
+    background: #F8F9FF;
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  .Purchase-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 55px;
+    gap: 60px;
+    width: 1280px;
+    height: 814px;
+    background: #F8F9FF;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    }
+    .Plans-layout{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+width: 1170px;
+height: 424px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-top: 40px;
+
+        }
+    .PlansBox{
+
+box-sizing: border-box;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 30px;
+gap: 30px;
+width: 370px;
+height: 424px;
+
+background: #FFFFFF;
+
+border: 1px solid #F8F9FF;
+box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    }
+    .PlansBoxContainer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 310px;
+height: 254px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+    }
+    .PlansPrice{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+width: 310px;
+height: 135px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-top: -20px;
+    }
+
+    .slash{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0px;
+        gap: 12px;
+        width: 310px;
+        height: 65px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: -80px;        }
+
+        .Slashtxt1{
+            width: 65px;
+            height: 65px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 130%;
+
+            letter-spacing: -0.02em;
+        
+            color: #2D2D2D;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            }
+        .Slashtxt2{
+            width: 233px;
+            height: 26px;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 160%;
+            /* identical to box height, or 26px */
+            color: #3B3B3B;
+
+            
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 1;
+            }
+            .Planstxt1{/* Free */
+
+                width: 310px;
+                height: 32px;
+                
+                /* Body L */
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 150%;
+                /* identical to box height, or 32px */
+                
+                color: #2D2D2D;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+            .Planstxt2{/* Short description goes here */
+
+                width: 310px;
+                height: 26px;
+                margin-top: 50px;
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                /* identical to box height, or 26px */
+                
+                color: #2D2D2D;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 2;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+
+                .PlansFeatures{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap:1px;
+                    width: 310px;
+                    height: 95px;
+                    flex: none;
+                    order: 1;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    margin-top: 15px;
+                    
+                        }
+                .PlansFeaturestxt{
+                    width: 278px;
+                    height: 21px;
+                    
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 130%;
+            margin-top: 0px;
+                    color: #2D2D2D;
+        
+                    flex: none;
+                    order: 1;
+                    flex-grow: 1;
+                    }
+                    .PlansFeaturestxt2{
+                        width: 278px;
+                        height: 21px;
+                        
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 130%;
+                margin-top: 0px;
+                        color: #FFFFFF;
+            
+                        flex: none;
+                        order: 1;
+                        flex-grow: 1;
+                        }
+                    .check{
+width: 20px;
+height: 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+                    }
+
+
+
+
+                    @media (max-width: 744px) {
+                        .Purchase-layout{
+                            margin-left: 76px;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 100px 32px;
+gap: 40px;
+width: 744px;
+height: 1744px;
+background: #F8F9FF;
+flex: none;
+order: 7;
+flex-grow: 0;
+    }
+    .Plans-layout{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 680px;
+height: 1414px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+        }
+    .PlansBox{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 30px;
+gap: 30px;
+width: 680px;
+height: 458px;
+background: #FFFFFF;
+border: 1px solid #F8F9FF;
+box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+border-radius: 20px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .PlansBoxContainer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 620px;
+height: 288px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .PlansPrice{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+width: 620px;
+height: 169px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+
+    .slash{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0px;
+        gap: 12px;
+        width: 310px;
+        height: 65px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: -80px;        }
+
+        .Slashtxt1{
+            width: 65px;
+            height: 65px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 130%;
+
+            letter-spacing: -0.02em;
+        
+            color: #2D2D2D;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            }
+        .Slashtxt2{
+            width: 233px;
+            height: 26px;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 160%;
+            /* identical to box height, or 26px */
+            color: #3B3B3B;
+
+            
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 1;
+            }
+            .Planstxt1{/* Free */
+
+                width: 310px;
+                height: 32px;
+                
+                /* Body L */
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 150%;
+                /* identical to box height, or 32px */
+                
+                color: #2D2D2D;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+            .Planstxt2{/* Short description goes here */
+
+                width: 310px;
+                height: 26px;
+                margin-top: 50px;
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                /* identical to box height, or 26px */
+                
+                color: #2D2D2D;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 2;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+
+                .PlansFeatures{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 620px;
+height: 95px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+                        }
+                .PlansFeaturestxt{
+                    width: 278px;
+                    height: 21px;
+                    
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 130%;
+            margin-top: 0px;
+                    color: #2D2D2D;
+        
+                    flex: none;
+                    order: 1;
+                    flex-grow: 1;
+                    }
+                    .PlansFeaturestxt2{
+                        width: 278px;
+                        height: 21px;
+                        
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 130%;
+                margin-top: 0px;
+                        color: #FFFFFF;
+            
+                        flex: none;
+                        order: 1;
+                        flex-grow: 1;
+                        }
+                    .check{
+width: 20px;
+height: 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+                    }
+
+
+                    }
+
+                    @media (max-width: 375px) {
+                        .Purchase-layout{
+                            margin-left: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 55px;
+    gap: 60px;
+    width: 375px;
+    height: 814px;
+    background: #F8F9FF;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    }
+    .Plans-layout{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+width: 315px;
+height: 1358px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+        }
+    .PlansBox{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 30px;
+gap: 30px;
+width: 315px;
+height: 450px;
+background: #FFFFFF;
+border: 1px solid #F8F9FF;
+box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+border-radius: 20px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .PlansBoxContainer{
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 255px;
+height: 280px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+    }
+    .PlansPrice{
+/* Pricing Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 255px;
+height: 161px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+    }
+
+    .slash{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0px;
+        gap: 12px;
+        width: 310px;
+        height: 65px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: -80px;        }
+
+        .Slashtxt1{
+            width: 65px;
+            height: 65px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 130%;
+
+            letter-spacing: -0.02em;
+        
+            color: #2D2D2D;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            }
+        .Slashtxt2{
+            width: 233px;
+            height: 26px;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 160%;
+            /* identical to box height, or 26px */
+            color: #3B3B3B;
+
+            
+            /* Inside auto layout */
+            flex: none;
+            order: 1;
+            flex-grow: 1;
+            }
+            .Planstxt1{/* Free */
+
+                width: 310px;
+                height: 32px;
+                
+                /* Body L */
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 150%;
+                /* identical to box height, or 32px */
+                
+                color: #2D2D2D;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+            .Planstxt2{/* Short description goes here */
+
+                width: 310px;
+                height: 26px;
+                margin-top: 50px;
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                /* identical to box height, or 26px */
+                
+                color: #2D2D2D;
+                
+                
+                /* Inside auto layout */
+                flex: none;
+                order: 2;
+                align-self: stretch;
+                flex-grow: 0;
+                }
+
+                .PlansFeatures{
+    /* Pricing Features */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 255px;
+height: 95px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+                        }
+                .PlansFeaturestxt{
+                    width: 278px;
+                    height: 21px;
+                    
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 130%;
+            margin-top: 0px;
+                    color: #2D2D2D;
+        
+                    flex: none;
+                    order: 1;
+                    flex-grow: 1;
+                    }
+                    .PlansFeaturestxt2{
+                        width: 278px;
+                        height: 21px;
+                        
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 130%;
+                margin-top: 0px;
+                        color: #FFFFFF;
+            
+                        flex: none;
+                        order: 1;
+                        flex-grow: 1;
+                        }
+                    .check{
+width: 20px;
+height: 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+                    }
+
+
+                    }
