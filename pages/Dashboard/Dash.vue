@@ -65,8 +65,10 @@
          congue at euismod donec.Lectus interdum nibh laoreet nunc bibendum volutpat.</p>
        <div class=" mx-10 relative">
          
-         <img src="../../assets/images/rec.png" class=" absolute m-auto left-0 right-0 top-0 bottom-0 ">
-         <img src="../../assets/images/Desktop.png" class=" px-10 z-10">
+           <div class="relative flex justify-center items-center">
+  <img src="../../assets/images/rec.png" class="absolute inset-0 m-auto z-0">
+  <img src="../../assets/images/Desktop.png" class="px-10 relative z-10">
+</div>
        </div>
          
    </div>
