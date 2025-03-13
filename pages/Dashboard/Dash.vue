@@ -46,7 +46,7 @@
        <p class="font-roboto lg:text-left md:text-left text-center lg:text-xl md:text-sm text-base">In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper. Ultrices in amet, ullamcorper non viverra a, neque orci.</p>
        <div class=" flex gap-5 items-center lg:justify-normal md:justify-normal justify-center">
        <img src="../../assets/images/Apple.png" >
-       <img src="../../assets/images/google.png" >
+       <img src="../../assets/images/Google.png" >
        </div>
        
      </div>
