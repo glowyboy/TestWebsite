@@ -1,12 +1,19 @@
+import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   css: [
-    '~/assets/css/navbar.css' ,// Add other CSS files here if needed
-    '~/pages/Dashboard/FirstPart.css' ,// Add other CSS files here if needed
-    '~/pages/Dashboard/SecondPart.css' ,// Add other CSS files here if needed
-    '~/pages/Dashboard/ThirdPart.css' ,// Add other CSS files here if needed
-    '~/pages/Dashboard/LastPart.css' ,// Add other CSS files here if needed
+    '~/assets/css/navbar.css' ,
+    '~/assets/css/font.css' ,
+    '~/assets/css/Icon.css' ,
+    '~/assets/css/Buttons.css' ,
+    '~/pages/Dashboard/Dash2.css' ,
 
   ],
-
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
   compatibilityDate: '2025-02-26'
 })
+
+

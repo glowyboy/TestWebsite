@@ -1,0 +1,36 @@
+.Nav-Logo{
+    width: 21.03px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+.Icon64{
+    width: 64px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+.Icon9{
+    position: absolute;
+    left: 17.19%;
+    right: 17.19%;
+    top: 31.25%;
+    bottom: 31.25%;
+    background: #0F172A;
+    }
+.Icon24{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+.Icon116{
+    width: 136px;
+    height: 42px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }

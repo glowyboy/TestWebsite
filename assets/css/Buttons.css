@@ -1,0 +1,33 @@
+
+.transparent-Button{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+width: 167px;
+height: 48px;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Black-Button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+width: 260px;
+height: 64px;
+flex: none;
+order: 2;
+flex-grow: 0;
+background: #0F172A;
+border: 2px solid #0F172A;
+border-radius: 8px;
+}
