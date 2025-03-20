@@ -3,32 +3,41 @@
    <div class="bg-bg  flex items-center justify-center flex-col gap-5 ">
       <Navbar/>
 
-       <div class="flex flex-col items-center justify-center  mt-20 ">
-         <p class="font-roboto font-roboto lg:text-5xl md:text-5xl sm:text-3xl text-3xl font-bold text-white text-center">Technology design tools
-         </p>
-           <p class="font-roboto lg:text-5xl md:text-5xl sm:text-3xl text-3xl font-bold text-white text-center"> for engineers and hobbyists</p>
-       </div>
-         <div class=" font-roboto flex flex-col items-center justify-center ">
-          <p class="font-roboto text-white text-xl text-center">
-               Sit elit feugiat turpis sed integer integer accumsan turpis.
+      <div class="flex flex-col items-center justify-center mt-20 max-w-[95%] md:max-w-[1200px] xl:max-w-[1600px] mx-auto">
+  <p class="font-roboto lg:text-5xl md:text-5xl sm:text-3xl text-3xl font-bold text-white text-center">
+    Technology design tools
+  </p>
+  <p class="font-roboto lg:text-5xl md:text-5xl sm:text-3xl text-3xl font-bold text-white text-center">
+    for engineers and hobbyists
+  </p>
+</div>
 
-           </p>
-           <p class="font-roboto font-roboto text-xl text-white">Sed suspendisse nec lorem mauris.</p>
-         </div>
+<div class="font-roboto flex flex-col items-center justify-center max-w-[90%] md:max-w-[1100px] xl:max-w-[1600px] mx-auto px-4 md:px-8">
+  <p class="font-roboto text-white text-xl text-center">
+    Sit elit feugiat turpis sed integer integer accumsan turpis.
+  </p>
+  <p class="font-roboto text-xl text-white text-center">
+    Sed suspendisse nec lorem mauris.
+  </p>
+</div>
+
            <button class=" bg-btn cursor-pointer px-7 py-2 rounded-lg text-white font-bold hover:text-btn hover:bg-white hover:border-btn hover:border-2 border-2 border-btn">Request Demo</button>
-         <div class=" w-full flex flex-col items-center justify-center relative mt-17">
-           
-           <img src="../../assets/images/Lines.png" class=" absolute top-20 w-full ">
-           <img src="../../assets/images/White.png" class=" absolute -bottom-1 w-full ">
-           <img src="../../assets/images/Desktop.png" class="  mt-4 lg:w-[1100px] md:w-[1100px] w-[600px]">    
-         </div>
+           <div class="w-full flex flex-col items-center justify-center relative mt-17">
+  <!-- Desktop image should be on top -->
+  <img src="../../assets/images/Desktop.png" class="relative z-20 mt-4 lg:w-[1620px] md:w-[1100px] w-[600px]">    
+
+  <!-- Background images behind Desktop -->
+  <img src="../../assets/images/Lines.png" class="absolute top-20 w-full z-10">
+  <img src="../../assets/images/White.png" class="absolute -bottom-1 w-full z-0">
+</div>
+
    </div>
-   <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-10 md:gap-20 lg:gap-20 pt-10 max-w-full overflow-hidden">
-  <img src="../../assets/images/Platform1.png" class="w-14 sm:w-20 md:w-28 lg:w-28">
-  <img src="../../assets/images/Platform2.png" class="w-14 sm:w-20 md:w-28 lg:w-28">
-  <img src="../../assets/images/Platform3.png" class="w-14 sm:w-20 md:w-28 lg:w-28">
-  <img src="../../assets/images/Platform4.png" class="w-14 sm:w-20 md:w-28 lg:w-28">
-  <img src="../../assets/images/Platform5.png" class="w-14 sm:w-20 md:w-28 lg:w-28">
+   <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-10 md:gap-20 lg:gap-30 pt-10 max-w-full overflow-hidden">
+  <img src="../../assets/images/Platform1.png" class="w-14 sm:w-20 md:w-28 lg:w-35">
+  <img src="../../assets/images/Platform2.png" class="w-14 sm:w-20 md:w-28 lg:w-35">
+  <img src="../../assets/images/Platform3.png" class="w-14 sm:w-20 md:w-28 lg:w-35">
+  <img src="../../assets/images/Platform4.png" class="w-14 sm:w-20 md:w-28 lg:w-35">
+  <img src="../../assets/images/Platform5.png" class="w-14 sm:w-20 md:w-28 lg:w-35">
 </div>
 
     <div class="flex lg:flex-row md:flex-row flex-col-reverse lg:px-32 md:px-10 px-5 pt-36 lg:gap-16 md:gap-10 gap-5 max-w-[1800px] mx-auto">
@@ -78,7 +87,7 @@
          
         <div class="relative flex justify-center items-center">
   <img src="../../assets/images/rec.png" class="absolute inset-0 m-auto z-0">
-  <img src="../../assets/images/Desktop.png" class="px-10 relative z-10">
+  <img src="../../assets/images/Desktop.png" class="px-10 relative z-10 lg:w-[1620px] md:w-[1100px] w-[600px]">
 </div>
 
        </div>
@@ -105,7 +114,7 @@
 </div>
 
      
-   <div class="w-full bg-amber-400 mt-20 py-10 relative overflow-hidden">
+   <div class="w-full bg-amber-400 mt-20 py-10 relative overflow-hidden mt-30">
   <div class="max-w-screen-xl mx-auto grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 gap-10 px-6 relative">
     <!-- Left Text Section -->
     <div class="flex flex-col items-start justify-center gap-2 max-w-lg">
@@ -236,86 +245,87 @@
      <p class="font-roboto  lg:text-3xl md:text-3xl text-xl text-center">Sit elit feugiat turpis sed integer integer accumsan turpis.</P>
      <button class=" bg-btn cursor-pointer px-7 py-2 rounded-lg text-white font-bold hover:text-btn hover:bg-white hover:border-btn hover:border-2 border-2 border-btn">Request Demo</button>
    </div>
-   <footer class="bg-white p-10 text-gray-700 mt-auto">
-    <div class="max-w-7xl mx-auto">
-      <!-- Top Footer Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-        <!-- Logo Section -->
-        <div class="flex flex-col">
-          <div class="flex items-center gap-2">
-  <img src="../../assets/images/Logo.png " alt="Protech Logo" class="w-7">
-  <span class="text-xl font-bold text-primary color: #701A75;">protech</span>
-</div>
-   </div>
-
-        <!-- Product Section -->
-        <div>
-          <h3 class="text-gray-500 font-semibold mb-3">PRODUCT</h3>
-          <ul class="space-y-4">
-            <li>Pricing</li>
-            <li>Overview</li>
-            <li>Browse</li>
-            <li>Accessibility</li>
-            <li>Five</li>
-          </ul>
-        </div>
-
-        <!-- Solutions Section -->
-        <div>
-          <h3 class="text-gray-500 font-semibold mb-3">SOLUTIONS</h3>
-          <ul class="space-y-4">
-            <li>Brainstorming</li>
-            <li>Ideation</li>
-            <li>Wireframing</li>
-            <li>Research</li>
-          </ul>
-        </div>
-
-        <!-- Resources Section -->
-        <div>
-          <h3 class="text-gray-500 font-semibold mb-3">RESOURCES</h3>
-          <ul class="space-y-4">
-            <li>Help Center</li>
-            <li>Blog</li>
-            <li>Tutorials</li>
-          </ul>
-        </div>
-
-        <!-- Company Section -->
-        <div>
-          <h3 class="text-gray-500 font-semibold mb-3">COMPANY</h3>
-          <ul class="space-y-4">
-            <li>About</li>
-            <li>Press</li>
-            <li>Events</li>
-            <li>Careers</li>
-          </ul>
+   <footer class="bg-white p-10 text-gray-700 mt-auto w-full">
+  <div class="max-w-[1920px] mx-auto px-6 lg:px-20">
+    <!-- Top Footer Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+      <!-- Logo Section -->
+      <div class="flex flex-col">
+        <div class="flex items-center gap-2">
+          <img src="../../assets/images/Logo.png" alt="Protech Logo" class="w-7">
+          <span class="text-xl font-bold text-primary color: #701A75;">protech</span>
         </div>
       </div>
 
-      <!-- Bottom Footer -->
-      <div class="border-t mt-6 pt-6 text-sm flex flex-col md:flex-row justify-between items-center">
-        <!-- Copyright Text -->
-        <p class="font-robototext-gray-500">@ 2023 Protech, Inc. All rights reserved.</p>
+      <!-- Product Section -->
+      <div>
+        <h3 class="text-gray-500 font-semibold mb-3">PRODUCT</h3>
+        <ul class="space-y-4">
+          <li>Pricing</li>
+          <li>Overview</li>
+          <li>Browse</li>
+          <li>Accessibility</li>
+          <li>Five</li>
+        </ul>
+      </div>
 
-        <!-- Links -->
-        <div class="flex gap-6">
-          <a href="#" class="hover:underline text-gray-500">Terms</a>
-          <a href="#" class="hover:underline text-gray-500">Privacy</a>
-          <a href="#" class="hover:underline text-gray-500">Contact</a>
-        </div>
+      <!-- Solutions Section -->
+      <div>
+        <h3 class="text-gray-500 font-semibold mb-3">SOLUTIONS</h3>
+        <ul class="space-y-4">
+          <li>Brainstorming</li>
+          <li>Ideation</li>
+          <li>Wireframing</li>
+          <li>Research</li>
+        </ul>
+      </div>
 
-        <!-- Social Media Icons -->
-        <div class="flex gap-5 mt-4 md:mt-0">
-          <img src="../../assets/images/youtube.png" alt="YouTube" class="w-5 ">
-          <img src="../../assets/images/facebook.png" alt="Facebook" class="w-5">
-          <img src="../../assets/images/twitter.png" alt="Twitter" class="w-5">
-          <img src="../../assets/images/instagram.png" alt="Instagram" class="w-5">
-          <img src="../../assets/images/facebook.png" alt="LinkedIn" class="w-5">
-        </div>
+      <!-- Resources Section -->
+      <div>
+        <h3 class="text-gray-500 font-semibold mb-3">RESOURCES</h3>
+        <ul class="space-y-4">
+          <li>Help Center</li>
+          <li>Blog</li>
+          <li>Tutorials</li>
+        </ul>
+      </div>
+
+      <!-- Company Section -->
+      <div>
+        <h3 class="text-gray-500 font-semibold mb-3">COMPANY</h3>
+        <ul class="space-y-4">
+          <li>About</li>
+          <li>Press</li>
+          <li>Events</li>
+          <li>Careers</li>
+        </ul>
       </div>
     </div>
-  </footer>
+
+    <!-- Bottom Footer -->
+    <div class="border-t mt-6 pt-6 text-sm flex flex-col md:flex-row justify-between items-center">
+      <!-- Copyright Text -->
+      <p class="text-gray-500">@ 2023 Protech, Inc. All rights reserved.</p>
+
+      <!-- Links -->
+      <div class="flex gap-6">
+        <a href="#" class="hover:underline text-gray-500">Terms</a>
+        <a href="#" class="hover:underline text-gray-500">Privacy</a>
+        <a href="#" class="hover:underline text-gray-500">Contact</a>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="flex gap-5 mt-4 md:mt-0">
+        <img src="../../assets/images/youtube.png" alt="YouTube" class="w-5">
+        <img src="../../assets/images/facebook.png" alt="Facebook" class="w-5">
+        <img src="../../assets/images/twitter.png" alt="Twitter" class="w-5">
+        <img src="../../assets/images/instagram.png" alt="Instagram" class="w-5">
+        <img src="../../assets/images/facebook.png" alt="LinkedIn" class="w-5">
+      </div>
+    </div>
+  </div>
+</footer>
+
 </template>
 
 
