@@ -1,10 +1,10 @@
 <template>
   <nav class="bg-bg w-full top-0 start-0">
-    <div class="max-w-[1920px] mx-auto px-4 lg:px-4 flex flex-wrap items-center justify-between py-4">
+    <div class="max-w-[1440px] mx-auto px-4 lg:px-4 flex flex-wrap items-center justify-between py-6">
       <!-- Logo -->
-      <a href="#" class="flex items-center space-x-2 lg:ml-4">
+      <a href="#" class="flex items-center space-x-2 lg:ml-10">
         <img src="../assets/images/Logo.png" class="h-8" alt="Protech Logo">
-        <span class="text-white text-2xl font-bold">Protech</span>
+        <span class="text-white text-[32px] font-bold leading-[110%] ">protech</span>
       </a>
 
       <!-- Buttons (Request Demo & Mobile Menu) -->
@@ -12,7 +12,7 @@
         <!-- Request Demo Button (Visible on md+ screens) -->
         <button 
           type="button" 
-          class="hidden md:block border border-white text-white px-4 py-2 rounded-lg transition hover:bg-white hover:text-[#650D66]">
+          class="hidden md:block border border-white mr-16 text-white px-6 py-2 rounded-lg transition hover:bg-white hover:text-[#650D66]">
           Request Demo
         </button>
         
@@ -24,16 +24,16 @@
         </button>
       </div>
 
-      <!-- Desktop Menu -->
-      <div class="items-center hidden md:flex md:w-auto md:order-1">
-        <ul class="flex space-x-8 font-medium">
-          <li><a href="#" class="text-white hover:opacity-75">Products</a></li>
-          <li><a href="#" class="text-white hover:opacity-75">Solutions</a></li>
-          <li><a href="#" class="text-white hover:opacity-75">Resources</a></li>
-          <li><a href="#" class="text-white hover:opacity-75">Pricing</a></li>
-        </ul>
-      </div>
-    </div>
+ <!-- Desktop Menu -->
+<div class="items-center hidden md:flex md:w-auto md:order-1">
+  <ul class="flex space-x-8 font-medium menu-text">
+    <li><a href="#" class="hover:opacity-75">Products</a></li>
+    <li><a href="#" class="hover:opacity-75">Solutions</a></li>
+    <li><a href="#" class="hover:opacity-75">Resources</a></li>
+    <li><a href="#" class="hover:opacity-75">Pricing</a></li>
+  </ul>
+</div>
+</div>
 
     <!-- Mobile Overlay & Menu -->
     <div v-if="menuVisible" class="fixed inset-0 z-50 md:hidden">
