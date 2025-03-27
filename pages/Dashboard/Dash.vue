@@ -409,8 +409,8 @@
 
 <script setup>
 import { ref } from "vue";
-import downIcon from "@/assets/images/down.png";
-import upIcon from "@/assets/images/up.png"; // Add an "up" icon if needed
+import downIcon from "../../assets/images/down.png";
+import upIcon from "../../assets/images/up.png"; // Add an "up" icon if needed
 
 const errorList = ref([
   { 
@@ -430,10 +430,10 @@ const errorList = ref([
   },
 ]);
 // Import images
-import desktopImage from "@/assets/images/Col.png";
-import colImage from "@/assets/images/Col.png";
-import futuristicImage from "@/assets/images/Col.png";
-import natureImage from "@/assets/images/Col.png";
+import desktopImage from "../../assets/images/Col.png";
+import colImage from "../../assets/images/Col.png";
+import futuristicImage from "../../assets/images/images/Col.png";
+import natureImage from "../../assets/images/Col.png";
 
 // Slides data
 const slides = ref([
