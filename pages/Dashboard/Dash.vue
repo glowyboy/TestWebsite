@@ -142,7 +142,7 @@
 
 
 
-<div class="max-w-[1440px] min-w-[393px] h-auto min-h-[500px] sm:min-h-[600px] md:h-120 mx-auto p-10 bg-yellow-500 rounded-2xl shadow-lg flex flex-col md:flex-row items-center justify-between relative mt-40 overflow-hidden">
+<div class="max-w-[1440px] min-w-[393px]  min-h-[500px] sm:min-h-[400px] md:h-20 mx-auto p-10 bg-yellow-500 rounded-2xl shadow-lg flex flex-col md:flex-row items-center justify-between relative mt-40 overflow-hidden">
   <!-- Left Text Section -->
   <div class="w-full md:w-1/2 p-6 mb-20 order-1 md:order-none md:pl-10">
       <p class="text-black text-lg leading-relaxed w-full md:w-[400px] md:ml-30">
