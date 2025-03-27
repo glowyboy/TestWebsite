@@ -325,7 +325,6 @@
       <!-- Logo Section -->
       <div class="flex flex-col">
         <div class="flex items-center gap-2">
-          <img src="../../assets/images/Logo2.png"  class="w-7">
           <span class="text-xl font-bold text-primary" style="color: #701A75; font-family: 'Roboto'; font-size: 28px; 
           line-height: 110%; width: 111px; height: 35px; display: flex; align-items: center; flex: none; order: 1; flex-grow: 0;">
     protech
