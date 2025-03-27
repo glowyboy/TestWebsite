@@ -431,7 +431,7 @@ const errorList = ref([
 // Import images
 import desktopImage from "../../assets/images/Col.png";
 import colImage from "../../assets/images/Col.png";
-import futuristicImage from "../../assets/images/images/Col.png";
+import futuristicImage from "../../assets/images/Col.png";
 import natureImage from "../../assets/images/Col.png";
 
 // Slides data
