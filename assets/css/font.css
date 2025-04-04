@@ -157,3 +157,63 @@
   }.font-roboto {
     font-family: var(--font-roboto);
 }
+.menu-text a {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: white; /* Ensuring text color remains white */
+  text-decoration: none; /* Removes underline */
+}
+
+.slide-fade-enter-active, .slide-fade-leave-active {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.slide-fade-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.slide-fade-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+/* Default styles */
+.responsive-class {
+  /* your default styles */
+}
+
+/* Styles between 766px and 642px */
+@media (max-width: 766px) and (min-width: 640px) {
+  .responsive-class {
+    left: 10px; /* Example, adjust based on your layout */
+    width: 320px; /* Example width */
+    height: 350px; /* Example height */
+    /* Add any other styles you want to change */
+    
+  }
+}
+/* Styles between 766px and 642px */
+@media (max-width: 404px) and (min-width: 342px) {
+  .responsive-class {
+    top: -30px;
+    left: 10px; /* Example, adjust based on your layout */
+    width: 200px; /* Example width */
+    height: 230px; /* Example height */
+    transform: rotate(45deg); /* Rotates the element 90 degrees */
+
+    
+  }
+}
+/* Styles between 766px and 642px */
+@media (max-width: 639px) and (min-width: 404px) {
+  .responsive-class {
+    top: -30px;
+    left: 10px; /* Example, adjust based on your layout */
+    width: 290px; /* Example width */
+    height: 320px; /* Example height */
+    transform: rotate(45deg); /* Rotates the element 90 degrees */
+
+    
+  }
+}
