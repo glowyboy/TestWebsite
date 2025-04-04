@@ -141,46 +141,82 @@
       <p class="mt-4 text-black font-semibold">{{ slides[currentIndex].author }}</p>
       <p class="font-bold">{{ slides[currentIndex].company }}</p>
 
-      <!-- Pagination Dots for Large Screens -->
-      <div class="hidden md:flex mt-6 gap-2">
-        <div
-          v-for="(slide, index) in slides"
-          :key="index"
-          class="h-[8px] w-[20px] rounded-full cursor-pointer transition-all"
-          :class="{ 'bg-purple-600': currentIndex === index, 'bg-gray-300': currentIndex !== index }"
-          @click="setCurrentIndex(index)"
-        ></div>
-      </div>
-    </div>
+  <!-- Pagination Dots for Large Screens -->
+<div class="hidden md:flex mt-6 gap-2">
+  <div
+    v-for="(slide, index) in slides"
+    :key="index"
+    class="cursor-pointer rounded-full transition-all duration-300 ease-in-out"
+    :class="{
+      // Default size for unselected dots
+      'w-[12px] h-[6px] bg-gray-300': currentIndex !== index,  
+      
+      // Enlarged size when selected
+      'w-[32px] h-[12px] bg-purple-600': currentIndex === index,  
 
-    <!-- Right Image Section -->
-    <div class="relative w-full md:w-1/2 flex justify-center items-center flex-1 order-2 md:order-none md:pr-10 md:mr-22 ">
-      <transition name="slide-fade" mode="out-in">
-        <img 
-          :key="slides[currentIndex].image" 
-          :src="slides[currentIndex].image" 
-          alt="Slide" 
-          class="w-full md:w-auto min-w-[200px] sm:min-w-[250px] max-w-[300px] sm:max-w-[350px] md:max-w-[500px] h-auto rounded-2xl sm:mb-4 object-contain" 
-          :style="{ height: `${slides[currentIndex].height}px` }" 
-        />
-      </transition>
+      // Large screens (md and above) - Bigger dots
+      'md:w-[40px] md:h-[16px]': currentIndex === index,  
+      'md:w-[14px] md:h-[8px]': currentIndex !== index  
+    }"
+    @click="setCurrentIndex(index)"
+  ></div>
+</div>
+</div>
 
-      <!-- Chat Icon -->
-      <div class="absolute top-[-15px] right-[-10px] p-3">
-        <img src="../../assets/images/chat-quote.png" alt="Chat" class="w-6 h-6">
-      </div>
-    </div>
 
-    <!-- Pagination Dots for Small Screens -->
-    <div class="flex md:hidden mt-4 gap-2 order-3">
-      <div
-        v-for="(slide, index) in slides"
-        :key="index"
-        class="h-[8px] w-[20px] rounded-full cursor-pointer transition-all"
-        :class="{ 'bg-purple-600': currentIndex === index, 'bg-gray-300': currentIndex !== index }"
-        @click="setCurrentIndex(index)"
-      ></div>
+<div class="relative flex justify-center items-center mr-21">
+  <!-- Background Rectangle (Purple) -->
+  <div
+    class="absolute z-0 flex-none order-0 flex-grow-0 
+     lg:left-[1px] lg:w-[495px] lg:h-[573px] lg:rotate-[-30deg]
+     sm:left-[20px] sm:w-[450px] sm:h-[450px] sm:rotate-[140deg]
+     responsive-class"
+    :style="{
+      backgroundColor: '#701A75',
+      borderRadius: '50px'
+    }"
+  ></div>
+
+  <!-- Right Image Section -->
+  <div class="relative z-10 flex justify-center items-center">
+    <transition name="slide-fade" mode="out-in">
+      <img 
+        :key="slides[currentIndex].image" 
+        :src="slides[currentIndex].image" 
+        alt="Slide" 
+        class="w-full md:w-auto min-w-[200px] sm:min-w-[250px] max-w-[300px] sm:max-w-[350px] md:max-w-[500px] h-auto rounded-2xl sm:mb-4 object-contain sm:ml-200px" 
+        :style="{ height: `${slides[currentIndex].height}px` }" 
+      />
+    </transition>
+
+    <!-- Chat Icon -->
+    <div class="absolute top-[-15px] right-[-10px] p-3">
+      <img src="../../assets/images/chat-quote.png" alt="Chat" class="w-6 h-6">
     </div>
+  </div>
+</div>
+
+    
+<!-- Pagination Dots for Small Screens -->
+<div class="flex md:hidden mt-4 gap-2 order-3">
+  <div
+    v-for="(slide, index) in slides"
+    :key="index"
+    class="cursor-pointer rounded-full transition-all duration-300 ease-in-out"
+    :class="{
+      // Default size for unselected dots
+      'w-[10px] h-[6px] bg-gray-300': currentIndex !== index,  
+
+      // Enlarged size when selected
+      'w-[30px] h-[12px] bg-purple-600': currentIndex === index,  
+
+      // Further adjustments for extra small screens
+      'max-[393px]:w-[25px] max-[393px]:h-[10px]': currentIndex === index,  
+      'max-[393px]:w-[8px] max-[393px]:h-[5px]': currentIndex !== index  
+    }"
+    @click="setCurrentIndex(index)"
+  ></div>
+</div>
 
     <!-- Navigation Arrows -->
     <button class="absolute left-4 top-1/2 transform -translate-y-1/2 p-2" @click="prevSlide">
@@ -202,7 +238,7 @@
 
 
 
-<p class="font-roboto lg:text-6xl md:text-6xl sm:text-5xl text-5xl text-center font-bold py-20 sm:py-24 mt-10 sm:mt-40 sm:px-6">
+<p class="font-roboto lg:text-6xl md:text-6xl sm:text-2xl text-5xl  text-center font-bold py-20 sm:py-24 mt-10 sm:mt-40 sm:px-6">
   The features you were looking for
 </p>
 
@@ -250,13 +286,12 @@
       <p class="text-[18px]">Tortor arcu eget nisi neque, in nunc metus. Posuere in egestas pharetra euismod commodo vitae consectetur.</p></div>
     </div>
    </div>
-   <p class="font-roboto text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-center font-bold py-10 px-5 mt-29">
+ <p class="font-roboto text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-center font-bold py-10 px-5 mt-29">
   Technology design articles
 </p>
-<p class="font-roboto lg:text-2xl md:text-2xl sm:text-lg text-lg text-center pb-10 mt-2 sm:pl-8 sm:pr-8 md:pl-10 md:pr-10">
+<p class="font-roboto lg:text-2xl md:text-2xl sm:text-lg text-lg text-center pb-10 mt-2 sm:pl-8 sm:pr-8 md:pl-10 md:pr-10 max-[393px]:px-5 max-[320px]:px-3">
   Felis, semper ullamcorper sed pretium tristique vulputate semper massa ultrices. Integer orci gravida blandit amet.
 </p>
-
 
 
    <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 px-10 py-10 max-w-[90%] sm:max-w-[97%] mx-auto mt-9">
@@ -462,6 +497,7 @@ const slides = ref([
     author: "John Doe",
     company: "TechCorp",
     height: 390, // Reduced height for colImage
+    width:900,
 
   },
   {
