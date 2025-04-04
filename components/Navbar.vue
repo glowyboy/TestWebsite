@@ -30,7 +30,7 @@
       <a href="#" class="flex items-center hover:opacity-75">
         Products
         <!-- SVG Image as source -->
-        <img src="../assets/images/vector.svg" alt="Icon" class="w-4 h-4 ml-2">
+        <img src="../assets/images/Vector.svg" alt="Icon" class="w-4 h-4 ml-2">
       </a>
 
       <!-- Dropdown Content -->
