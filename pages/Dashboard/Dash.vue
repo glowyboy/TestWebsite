@@ -4,23 +4,19 @@
       <Navbar />
 
       <!-- Main Heading Section -->
-      <div class="flex flex-col items-center justify-center mt-20  max-w-[100%] md:max-w-[1200px] xl:max-w-[1400px]  ">
-        <p class="font-roboto text-center text-white font-bold text-[2.8rem] sm:text-[3rem] md:text-[3.8rem] lg:text-[4.4rem] leading-tight">
-          Technology design tools
+      <div class="flex flex-col items-center justify-center mt-20  max-w-[100%] md:max-w-[1200px] xl:max-w-[890px]  ">
+        <p class="font-roboto text-center text-white font-bold text-[2.1rem] sm:text-[3rem] md:text-[3.8rem] lg:text-[4.4rem] leading-tight">
+          Technology design tools   for engineers and hobbyists
         </p>
-        <p class="font-roboto text-center text-white font-bold text-[2.8rem] sm:text-[3rem] md:text-[3.8rem] lg:text-[4.4rem] leading-tight ">
-          for engineers and hobbyists
-        </p>
+
       </div>
 
 <!-- Subtitle Section -->
-<div class="max-w-[1280px] mx-auto px-6 md:px-8 mt-6">
-  <p class="font-roboto text-center text-white font-extralight text-[32px] leading-[160%]">
-    Sit elit feugiat turpis sed integer integer accumsan turpis.
+<div class="max-w-[900px] mx-auto px-6 md:px-8 mt-6 ">
+  <p class="font-roboto text-center text-white font-extralight text-[30px] leading-[160%] ">
+    Sit elit feugiat turpis sed integer integer accumsan turpis.   Sed suspendisse nec lorem mauris.
   </p>
-  <p class="font-roboto text-center text-white font-extralight text-[32px] leading-[160%]">
-    Sed suspendisse nec lorem mauris.
-  </p>
+
 </div>
 
 
@@ -51,7 +47,7 @@
 
 <div class=" mt-27 flex lg:flex-row md:flex-row flex-col-reverse lg:px-20 md:px-12 px-5 pt-20 lg:gap-16 md:gap-12 gap-8 max-w-[1400px] mx-auto items-center">
   <!-- Left Side: Image -->
-  <div class="w-full flex justify-start lg:max-w-[55%]">
+  <div class="w-full flex justify-start lg:max-w-[55%] sm:ml-15">
     <img src="../../assets/images/Efficient.png" class="max-w-full">
   </div>
 
@@ -68,7 +64,7 @@
 
 
 <div class="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 lg:px-32 md:px-10 px-5 py-20 lg:gap-16 md:gap-10 gap-5 max-w-[1800px] mx-auto ">
-  <div class="font-roboto flex items-start justify-center flex-col lg:gap-8 md:gap-4 gap-3 text-btn max-w-[500px]">
+  <div class="font-roboto flex items-start justify-center flex-col lg:gap-8 md:gap-4 sm:ml-15 gap-3 text-btn max-w-[500px]">
     <p class="md:text-5xl lg:text-5xl text-3xl font-bold text-left">
       Work from anywhere
     </p>
@@ -82,11 +78,11 @@
 
 
      </div>
-     <div class=" flex justify-center">
+     <div class=" flex justify-center sm:ml-15">
        <img src="../../assets/images/Phone1.png" alt="">
      </div>
    </div>
-   <div class=" bg-bl h-98 flex flex-col items-center justify-center text-white gap-10 ">
+   <div class=" bg-bl h-98 sm:h-102 flex flex-col items-center justify-center text-white gap-10 ">
      <p class="font-roboto md:text-6xl lg:text-6xl text-4xl font-bold text-center ">All the tech & design tools combined</P>
       <p class="font-roboto text-center text-white font-extralight text-[32px] leading-[160%]">
         Turpis purus, imperdiet integer amet, eu.</P>
@@ -95,8 +91,8 @@
   border-2 border-btn hover:bg-white hover:text-btn hover:border-btn transition-all duration-200">
   Request Demo
 </button>   </div>
-   <div class=" flex items-center justify-center flex-col gap-14  text-btn py-20">
-       <p class="font-roboto md:text-6xl lg:text-6xl  text-4xl font-bold text-center">Get your business to grow fast</p>
+   <div class=" flex items-center justify-center flex-col gap-14  text-btn py-20 ">
+       <p class="font-roboto sm:text-1xl md:text-6xl lg:text-6xl  text-4xl font-bold text-center">Get your business to grow fast</p>
        <p class="font-roboto text-center leading-loose lg:text-xl md:text-xl text-base max-w-[900px]">Aliquet id quam amet, augue netus tristique elementum eros urna. Dignissim nisl mauris cras feugiat
          congue at euismod donec.Lectus interdum nibh laoreet nunc bibendum volutpat.</p>
        <div class=" mx-10 relative">
@@ -113,20 +109,87 @@
   <div class="flex flex-col items-center text-center space-y-4">
     <img src="../../assets/images/watch.png" alt="" class="w-14 h-13">
     <p class="font-roboto text-2xl font-bold text-gray-900">Nisl arcu nunc</p>
-    <p class="font-roboto text-lg text-gray-900 w-[300px]">Dui consectetur gravida platea ut dis diam. Enim morbi proin auctor et.</p>
+    <p class="font-roboto text-lg text-gray-900 w-[290px]">Dui consectetur gravida platea ut dis diam. Enim morbi proin auctor et.</p>
   </div>
   
   <div class="flex flex-col items-center text-center space-y-4">
     <img src="../../assets/images/tourn.png" alt="" class="w-14 h-13">
     <p class="font-roboto text-2xl font-bold text-gray-900">Dui scelerisque</p>
-    <p class="font-roboto text-lg text-gray-900 w-[340px]">Et sit duis vestibulum proin. Sollicitudin velit, etiam a feugiat sagittis.</p>
+    <p class="font-roboto text-lg text-gray-900 w-[290px]">Et sit duis vestibulum proin. Sollicitudin velit, etiam a feugiat sagittis.</p>
   </div>
 
   <div class="flex flex-col items-center text-center space-y-4">
     <img src="../../assets/images/three-stars.png" alt="" class="w-14 h-13">
     <p class="font-roboto text-2xl font-bold text-gray-900">Ac proin at</p>
-    <p class="font-roboto text-lg text-gray-900 w-[340px]">Elit purus magna donec mattis amet, leo varius sed. Ut metus sed convallis.</p>
+    <p class="font-roboto text-lg text-gray-900 w-[290px]">Elit purus magna donec mattis amet, leo varius sed. Ut metus sed convallis.</p>
   </div>
+</div>
+
+
+
+
+
+
+
+<div class="max-w-[1440px] mx-auto min-h-[500px] p-10 bg-yellow-500 rounded-2xl shadow-lg flex flex-col md:flex-row items-center justify-between relative mt-40">
+    
+    <!-- Left Text Section -->
+    <div class="w-full md:w-1/2 p-6 md:pl-14 text-left lg:ml-20">
+      <p class="text-black text-lg leading-relaxed w-full md:w-[400px]">
+        {{ slides[currentIndex].text }}
+      </p>
+      <p class="mt-4 text-black font-semibold">{{ slides[currentIndex].author }}</p>
+      <p class="font-bold">{{ slides[currentIndex].company }}</p>
+
+      <!-- Pagination Dots for Large Screens -->
+      <div class="hidden md:flex mt-6 gap-2">
+        <div
+          v-for="(slide, index) in slides"
+          :key="index"
+          class="h-[8px] w-[20px] rounded-full cursor-pointer transition-all"
+          :class="{ 'bg-purple-600': currentIndex === index, 'bg-gray-300': currentIndex !== index }"
+          @click="setCurrentIndex(index)"
+        ></div>
+      </div>
+    </div>
+
+    <!-- Right Image Section -->
+    <div class="relative w-full md:w-1/2 flex justify-center items-center flex-1 order-2 md:order-none md:pr-10 md:mr-22 ">
+      <transition name="slide-fade" mode="out-in">
+        <img 
+          :key="slides[currentIndex].image" 
+          :src="slides[currentIndex].image" 
+          alt="Slide" 
+          class="w-full md:w-auto min-w-[200px] sm:min-w-[250px] max-w-[300px] sm:max-w-[350px] md:max-w-[500px] h-auto rounded-2xl sm:mb-4 object-contain" 
+          :style="{ height: `${slides[currentIndex].height}px` }" 
+        />
+      </transition>
+
+      <!-- Chat Icon -->
+      <div class="absolute top-[-15px] right-[-10px] p-3">
+        <img src="../../assets/images/chat-quote.png" alt="Chat" class="w-6 h-6">
+      </div>
+    </div>
+
+    <!-- Pagination Dots for Small Screens -->
+    <div class="flex md:hidden mt-4 gap-2 order-3">
+      <div
+        v-for="(slide, index) in slides"
+        :key="index"
+        class="h-[8px] w-[20px] rounded-full cursor-pointer transition-all"
+        :class="{ 'bg-purple-600': currentIndex === index, 'bg-gray-300': currentIndex !== index }"
+        @click="setCurrentIndex(index)"
+      ></div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="absolute left-4 top-1/2 transform -translate-y-1/2 p-2" @click="prevSlide">
+      <img src="../../assets/images/chevron-left.svg" alt="Previous" class="w-10 h-10" />
+    </button>
+    <button class="absolute right-4 top-1/2 transform -translate-y-1/2 p-2" @click="nextSlide">
+      <img src="../../assets/images/chevron-right.svg" alt="Next" class="w-10 h-10" />
+    </button>
+
 </div>
 
 
@@ -139,64 +202,9 @@
 
 
 
-
-
-
-<div class="max-w-[1440px] min-w-[393px]  min-h-[500px] sm:min-h-[400px] md:h-20 mx-auto p-10 bg-yellow-500 rounded-2xl shadow-lg flex flex-col md:flex-row items-center justify-between relative mt-40 overflow-hidden">
-  <!-- Left Text Section -->
-  <div class="w-full md:w-1/2 p-6 mb-20 order-1 md:order-none md:pl-10">
-      <p class="text-black text-lg leading-relaxed w-full md:w-[400px] md:ml-30">
-        {{ slides[currentIndex].text }}
-      </p>
-      <p class="mt-4 text-black font-semibold w-full md:w-[100%] md:ml-30">{{ slides[currentIndex].author }}</p>
-      <p class="font-bold w-full md:w-[100%] md:ml-30 md:mt-3">{{ slides[currentIndex].company }}</p>
-    </div>
-
-    <!-- Right Image Section with Transition -->
-    <div class="relative w-full md:w-1/2 flex justify-center items-center flex-1 order-2 md:order-none md:pr-10 md:mr-22">
-      <transition name="slide-fade" mode="out-in">
-        <img 
-          :key="slides[currentIndex].image" 
-          :src="slides[currentIndex].image" 
-          alt="Slide" 
-          class="w-full md:w-auto min-w-[200px] sm:min-w-[250px] max-w-[300px] sm:max-w-[350px] md:max-w-[500px] h-auto rounded-2xl sm:mb-4 object-contain" 
-        />
-      </transition>
-    </div>
-
-    <!-- Navigation Arrows -->
-    <button class="absolute left-4 top-1/2 md:ml-22 transform -translate-y-1/2 p-2" @click="prevSlide">
-      <img src="../../assets/images/chevron-left.svg" alt="Previous" class="w-10 h-10" />
-    </button>
-    <button class="absolute right-4 top-1/2 md:mr-22 transform -translate-y-1/2 p-2" @click="nextSlide">
-      <img src="../../assets/images/chevron-right.svg" alt="Next" class="w-10 h-10" />
-    </button>
-
-    <!-- Pagination Dots -->
-    <div class="absolute bottom-4 flex gap-2 w-full justify-center ">
-      <div
-        v-for="(slide, index) in slides"
-        :key="index"
-        class="h-2 w-6 rounded-full cursor-pointer"
-        :class="{ 'bg-purple-600': currentIndex === index, 'bg-gray-300': currentIndex !== index }"
-        @click="setCurrentIndex(index)"
-      ></div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <p class="font-roboto lg:text-6xl md:text-6xl sm:text-5xl text-5xl sm:mt-40  text-center font-bold py-20 mt-10">The features you were looking for</p>
+<p class="font-roboto lg:text-6xl md:text-6xl sm:text-5xl text-5xl text-center font-bold py-20 sm:py-24 mt-10 sm:mt-40 sm:px-6">
+  The features you were looking for
+</p>
 
    <div class=" grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-10 gap-5 text-txt mb-1">
 
@@ -242,8 +250,13 @@
       <p class="text-[18px]">Tortor arcu eget nisi neque, in nunc metus. Posuere in egestas pharetra euismod commodo vitae consectetur.</p></div>
     </div>
    </div>
-   <p class="font-roboto lg:text-6xl md:text-6xl sm:text-5xl text-5xl  text-center font-bold py-10 px-5 mt-29">Technology design articles</p>
-   <p class="font-roboto lg:text-2xl md:text-2xl sm:text-lg text-lg  text-center pb-10 mt-2">Felis, semper ullamcorper sed pretium tristique vulputate semper massa ultrices. Integer orci gravida blandit amet.</p>
+   <p class="font-roboto text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-center font-bold py-10 px-5 mt-29">
+  Technology design articles
+</p>
+<p class="font-roboto lg:text-2xl md:text-2xl sm:text-lg text-lg text-center pb-10 mt-2 sm:pl-8 sm:pr-8 md:pl-10 md:pr-10">
+  Felis, semper ullamcorper sed pretium tristique vulputate semper massa ultrices. Integer orci gravida blandit amet.
+</p>
+
 
 
    <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 px-10 py-10 max-w-[90%] sm:max-w-[97%] mx-auto mt-9">
@@ -325,6 +338,7 @@
       <!-- Logo Section -->
       <div class="flex flex-col">
         <div class="flex items-center gap-2">
+          <img src="../../assets/images/Logo.svg"  class="w-7">
           <span class="text-xl font-bold text-primary" style="color: #701A75; font-family: 'Roboto'; font-size: 28px; 
           line-height: 110%; width: 111px; height: 35px; display: flex; align-items: center; flex: none; order: 1; flex-grow: 0;">
     protech
@@ -408,8 +422,8 @@
 
 <script setup>
 import { ref } from "vue";
-import downIcon from "../../assets/images/down.png";
-import upIcon from "../../assets/images/up.png"; // Add an "up" icon if needed
+import downIcon from "@/assets/images/down.png";
+import upIcon from "@/assets/images/up.png"; // Add an "up" icon if needed
 
 const errorList = ref([
   { 
@@ -429,10 +443,10 @@ const errorList = ref([
   },
 ]);
 // Import images
-import desktopImage from "../../assets/images/Col.png";
-import colImage from "../../assets/images/Col.png";
-import futuristicImage from "../../assets/images/Col.png";
-import natureImage from "../../assets/images/Col.png";
+import desktopImage from "@/assets/images/Col.png";
+import colImage from "@/assets/images/Guy.jpg";
+import futuristicImage from "@/assets/images/Col.png";
+import natureImage from "@/assets/images/Col.png";
 
 // Slides data
 const slides = ref([
@@ -447,6 +461,8 @@ const slides = ref([
     text: "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
     author: "John Doe",
     company: "TechCorp",
+    height: 390, // Reduced height for colImage
+
   },
   {
     image: futuristicImage,
