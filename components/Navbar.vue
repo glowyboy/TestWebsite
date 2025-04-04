@@ -24,16 +24,35 @@
         </button>
       </div>
 
- <!-- Desktop Menu -->
-<div class="items-center hidden md:flex md:w-auto md:order-1">
+      <div class="items-center hidden md:flex md:w-auto md:order-1">
   <ul class="flex space-x-8 font-medium menu-text">
-    <li><a href="#" class="hover:opacity-75">Products</a></li>
+    <li class="relative group">
+      <a href="#" class="flex items-center hover:opacity-75">
+        Products
+        <!-- SVG Image as source -->
+        <img src="../assets/images/vector.svg" alt="Icon" class="w-4 h-4 ml-2">
+      </a>
+
+      <!-- Dropdown Content -->
+      <div class="absolute left-0 hidden group-hover:block mt-2 pl-6 bg-bg text-white text-left shadow-lg p-2 opacity-0 transform translate-y-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+        <ul class="space-y-2">
+          <li>Shoes</li>
+          <li>Shirts</li>
+          <li>Pants</li>
+          <li>Accessories</li>
+        </ul>
+      </div>
+    </li>
+
     <li><a href="#" class="hover:opacity-75">Solutions</a></li>
     <li><a href="#" class="hover:opacity-75">Resources</a></li>
     <li><a href="#" class="hover:opacity-75">Pricing</a></li>
   </ul>
 </div>
 </div>
+
+
+
 
     <!-- Mobile Overlay & Menu -->
     <div v-if="menuVisible" class="fixed inset-0 z-50 md:hidden">
