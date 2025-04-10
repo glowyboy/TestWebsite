@@ -1,562 +1,407 @@
 <template>
-  <div class="max-w-[1440px] w-full mx-auto">
-    <div class="bg-bg flex flex-col items-center justify-center">
-      <Navbar />
+  <div class="font-poppins">
+    <div class="max-w-[1280px] w-full mx-auto bg-[#F8F9FF]">
+      <section class="bg-[#F8D57E] max-w-[1280px] mx-auto px-6 pt-4 pb-0 font-sans min-h-[570px]">
+        <!-- Navbar -->
+        <div class="flex justify-between items-center mb-10">
+          <div class="flex items-center gap-2 text-black font-bold text-xl ml-8">
+            <img src="../../assets/images/Tv.png" />
+            <img src="../../assets/images/TvTxt.png" class="mt-1.5 xl:block hidden" />
+          </div>
+          <div class="hidden md:flex gap-4 items-center text-sm font-medium">
+            <a href="#" class="text-[#009379] mr-10 font-semibold">Contact</a>
+            <a href="#" class="flex items-center justify-center gap-2 px-5 py-4 w-[162px] text-[#009379] h-[47px] bg-[#E5F4F2] rounded-2xl font-semibold">
+              How it works
+            </a>
+            <a href="#" class="flex items-center justify-center gap-2 px-5 py-4 w-[171px] h-[47px] bg-[#009379] text-white rounded-2xl font-semibold">
+              <img src="../../assets/images/RocketLaunch.png" />
+              Get Started
+            </a>
+          </div>
+          <!-- Mobile button -->
+          <div class="md:hidden">
+            <a href="#" class="flex items-center justify-center gap-2 px-5 py-4 w-[201px] h-[50px] bg-[#009379] text-white rounded-2xl font-semibold">
+              Get Started
+              <img src="../../assets/images/ArrowRight.svg" />
+            </a>
+          </div>
+        </div>
+    
+        <!-- Hero Section -->
+        <div class="text-center md:text-left flex flex-col md:flex-row items-center gap-10 ml-8">
+          <!-- Text Content -->
+          <div class="flex-1">
+            <h1 class="text-5xl sm:text-6xl font-extrabold text-[#2D2D2D] leading-tight text-left px-4">
+  Create Engaging<br />Landing Pages
+</h1>
 
-      <!-- Main Heading Section -->
-      <div class="flex flex-col items-center justify-center mt-20  max-w-[100%] md:max-w-[1200px] xl:max-w-[890px]  ">
-        <p class="font-roboto text-center text-white font-bold text-[2.1rem] sm:text-[3rem] md:text-[3.8rem] lg:text-[4.4rem] leading-tight">
-          Technology design tools   for engineers and hobbyists
+            <p class="mt-4 text-[#2D2D2D] text-lg max-w-[620px] ml-5">
+              Build beautiful landing pages in record time with
+              <a href="#" class="text-blue-600 underline">Anima</a>'s Landing Page UI kit for Figma. No code required!
+            </p>
+    
+            <!-- Buttons -->
+            <div class="mt-6 ml-5 flex flex-col sm:flex-row md:flex-row gap-4 sm:gap-6 justify-center sm:justify-center md:justify-start items-center sm:items-center md:items-start">
+              <a href="#" class="flex items-center justify-center gap-2 px-12 py-4 w-[221px] h-[55px] bg-[#009379] text-white rounded-2xl font-semibold">
+                <img src="../../assets/images/RocketLaunch.png" />
+                Get Started
+              </a>
+              <a href="#" class="flex items-center justify-center gap-2 px-12 py-4 w-[202px] h-[55px] text-[#009379] bg-white border-1 border-[#009379] rounded-2xl font-semibold">
+                How it works
+              </a>
+            </div>
+          </div>
+    
+ <!-- Phone Image -->
+<div class=" mx-auto mt-33 mr-15">
+  <img src="../../assets/images/Mockup.png" 
+       alt="Phone Mockup" 
+       class="w-full max-h-[45vh] object-contain" />
+</div>
+
+        </div>
+      </section>
+
+
+<!-- Outer wrapper to center everything -->
+<div class="w-full max-w-screen-xl mx-auto px-6">
+  <div class="flex flex-col-reverse lg:flex-row items-center gap-10 mt-20">
+    <!-- Left Image (Phone) -->
+    <div class="flex-shrink-0">
+      <img src="../../assets/images/Visuals.png" alt="Visual" class="mx-auto lg:mx-0 mt-30" />
+    </div>
+
+<!-- Feature Grid -->
+<div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full mr-5">
+
+<!-- Title & Description Block -->
+<div class="col-span-1 sm:col-span-2 flex flex-col px-4 
+            items-start text-left 
+            max-[746px]:items-center max-[746px]:text-center mt-20">
+  
+  <h1 class="text-3xl md:text-4xl font-extrabold text-[#2D2D2D] leading-tight">
+    Our features
+  </h1>
+
+  <p class="mt-4 text-[#2D2D2D] text-xl max-w-[500px] max-[746px]:text-center">
+    Few good reasons why you should use Anima Landing Page UI Kit to make your own pages.
+  </p>
+</div>
+
+
+<!-- Feature Cards -->
+<div class="flex items-center p-6 bg-white w-full rounded-3xl">
+  <img src="../../assets/images/ufo1.png" class="w-12 h-16 mr-4">
+  <p class="text-lg text-[#2D2D2D]">Fast building</p>
+</div>
+
+<div class="flex items-center p-6 bg-white w-full rounded-3xl">
+  <img src="../../assets/images/ufo2.png" class="w-12 h-16 mr-4">
+  <p class="text-lg text-[#2D2D2D]">Easy to edit</p>
+</div>
+
+<div class="flex items-center p-6 bg-white w-full rounded-3xl">
+  <img src="../../assets/images/ufo3.png" class="w-12 h-16 mr-4">
+  <p class="text-lg text-[#2D2D2D]">Responsiveness</p>
+</div>
+
+<div class="flex items-center p-6 bg-white w-full rounded-3xl">
+  <img src="../../assets/images/ufo4.png" class="w-12 h-16 mr-4">
+  <p class="text-lg text-[#2D2D2D]">No code needed</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<section class="py-16 px-4">
+  <!-- Header -->
+  <div class="text-center mb-12 mt-20">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-[#2D2D2D] mb-4">Discover our latest work</h2>
+    <p class="text-[#4B4B4B] max-w-xl mx-auto ">
+      Explore our portfolio and see the latest and greatest projects that  brought to life.
+    </p>
+  </div>
+
+  <!-- Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-10 max-w-7xl mx-auto mt-24 px-5">
+    <!-- Card -->
+    <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+      <div class="h-84 w-full">
+        <img src="../../assets/images/mountain.png" alt="Project Image" class="w-full h-full object-cover" />
+      </div>
+      <div class="p-4">
+        <h3 class="text-[24px] leading-[130%] font-semibold text-[#2D2D2D] tracking-[-0.01em] w-[310px] h-[50px] font-poppins">
+  Project Title
+</h3>
+        <p class="text-sm text-[#4B4B4B]  text-[17px]">Short Description</p>
+        <p class="text-xs text-gray-500 mt-7 text-[17px]">Category</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+      <div class="h-84 w-full">
+        <img src="../../assets/images/mountain.png" alt="Project Image" class="w-full h-full object-cover" />
+      </div>
+      <div class="p-4">
+        <h3 class="text-[24px] leading-[130%] font-semibold text-[#2D2D2D] tracking-[-0.01em] w-[310px] h-[50px] font-poppins">
+  Project Title
+</h3>           <p class="text-sm text-[#4B4B4B]  text-[17px]">Short Description</p>
+<p class="text-xs text-gray-500 mt-7 text-[17px]">Category</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+      <div class="h-84 w-full">
+        <img src="../../assets/images/mountain.png" alt="Project Image" class="w-full h-full object-cover" />
+      </div>
+      <div class="p-4">
+        <h3 class="text-[24px] leading-[130%] font-semibold text-[#2D2D2D] tracking-[-0.01em] w-[310px] h-[52px] font-poppins">
+  Project Title
+</h3>
+<p class="text-sm text-[#4B4B4B]  text-[17px]">Short Description</p>
+<p class="text-xs text-gray-500 mt-7 text-[17px]">Category</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-[#F8D57E] py-22 px-4 mt-30">
+  <div class="text-center mb-10 mt-4">
+    <h2 class="text-2xl md:text-3xl font-extrabold font-bold">Real Stories from Satisfied Customers</h2>
+    <p class="mt-2 text-gray-700">See how our landing page UI kit is making an impact.</p>
+  </div>
+
+  <div class="flex flex-col md:flex-row md:justify-center md:space-x-6 space-y-6 md:space-y-0 max-w-6xl mx-auto">
+
+    <!-- Testimonial 1 -->
+    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] 
+                flex flex-row items-center 
+                max-[374px]:flex-col max-[374px]:space-y-3">
+      <!-- Avatar + Info -->
+      <div class="flex flex-col items-center text-center md:w-1/3 px-2">
+        <img src="../../assets/images/Lauren1.png" alt="Lauren M." class="w-20 h-20 rounded-full mb-3">
+        <p class="font-bold text-lg">Lauren M.</p>
+        <p class="text-gray-500 text-sm">UI Designer @Bloo</p>
+      </div>
+      <!-- Stars + Testimonial -->
+      <div class="md:w-2/3 px-4 text-center md:text-left">
+        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <p class="text-sm text-gray-600">
+          "Animo’s Landing Page UI Kit has become a staple in my design toolkit. This kit has everything I need to get the job done quickly and efficiently."
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] 
+                flex flex-row items-center 
+                max-[374px]:flex-col max-[374px]:space-y-3">
+      <!-- Avatar + Info -->
+      <div class="flex flex-col items-center text-center md:w-1/3 px-2">
+        <img src="../../assets/images/David.png" alt="David B." class="w-20 h-20 rounded-full mb-3">
+        <p class="font-bold text-lg">David B.</p>
+        <p class="text-gray-500 text-sm">Lead Designer @Creative</p>
+      </div>
+      <!-- Stars + Testimonial -->
+      <div class="md:w-2/3 px-4 text-center md:text-left">
+        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <p class="text-sm text-gray-600">
+          "The Landing Page UI Kit has been a game changer. The pre-designed components and templates have helped us deliver projects faster!"
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+    <!-- Team Section -->
+    <section class="bg-gray-50 py-12 px-4">
+      <div class="text-center mb-10 mt-15">
+        <h2 class="text-2xl md:text-3xl font-extrabold font-bold">Meet our team</h2>
+        <p class="mt-2 text-gray-700 mt-6">Get to know the faces behind the scenes and learn about the values that drive us.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-18">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="../../assets/images/Sarah.png" alt="Sarah K." class="w-16 h-16 rounded-full mx-auto mb-4">
+          <h3 class="font-bold">Sarah K.</h3>
+          <p class="text-sm text-gray-500 mb-2">Lead Designer</p>
+          <p class="text-sm text-gray-600 mb-4 mt-13">With a passion for color and a love for clean lines, Sarah brings all our wildest design dreams to life.</p>
+          <div class="flex flex-wrap justify-center text-sm text-blue-600 mt-7 gap-x-11 gap-y-2 max-[640px]:text-center">
+  <a href="#" class="text-[#009379]">Twitter</a>
+  <a href="#" class="text-[#009379]">Dribbble</a>
+  <a href="#" class="text-[#009379]">LinkedIn</a>
+</div>
+
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="../../assets/images/Micheal.png" alt="Michael I." class="w-16 h-16 rounded-full mx-auto mb-4">
+          <h3 class="font-bold">Michael I.</h3>
+          <p class="text-sm text-gray-500 mb-2">Product Designer</p>
+          <p class="text-sm text-gray-600 mb-4 mt-13">Michael got a sharp eye for detail and the ability to turn any boring interface into a work of art.</p>
+          <div class="flex flex-wrap justify-center text-sm text-blue-600 mt-7 gap-x-11 gap-y-2 max-[640px]:text-center">
+  <a href="#" class="text-[#009379]">Twitter</a>
+  <a href="#" class="text-[#009379]">Dribbble</a>
+  <a href="#" class="text-[#009379]">LinkedIn</a>
+</div>
+
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <img src="../../assets/images/Lauren2.png" alt="Lauren M." class="w-16 h-16 rounded-full mx-auto mb-4">
+          <h3 class="font-bold">Lauren M.</h3>
+          <p class="text-sm text-gray-500 mb-2">UX Designer</p>
+          <p class="text-sm text-gray-600 mb-4 mt-7">Lauren is the mastermind behind all the seamless user experiences you love. She’s a wizard at making things intuitive.</p>
+          <div class="flex flex-wrap justify-center text-sm text-blue-600 mt-7 gap-x-11 gap-y-2 max-[640px]:text-center">
+  <a href="#" class="text-[#009379]">Twitter</a>
+  <a href="#" class="text-[#009379]">Dribbble</a>
+  <a href="#" class="text-[#009379]">LinkedIn</a>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <div class=" text-center px-4 py-12 space-y-16">
+      <section class="bg-gray-50 py-12 px-4 text-center overflow-hidden">
+  <h2 class="text-3xl sm:text-4xl font-bold mb-4 font-extrabold">More than 50 Integrations</h2>
+  <p class="text-base text-gray-600 mb-12">We integrate with more than 50 apps you use daily</p>
+
+  <!-- Row 1: 6 icons -->
+  <div class="icon-row flex justify-center gap-6 sm:gap-4 md:gap-2 flex-wrap">
+    <img src="../../assets/images/Logo11.svg" class="integration-icon" alt="Integration 1" />
+    <img src="../../assets/images/1.svg" class="integration-icon" alt="Integration 2" />
+    <img src="../../assets/images/2.svg" class="integration-icon" alt="Integration 3" />
+    <img src="../../assets/images/3.svg" class="integration-icon" alt="Integration 4" />
+    <img src="../../assets/images/4.svg" class="integration-icon" alt="Integration 5" />
+    <img src="../../assets/images/5.svg" class="integration-icon" alt="Integration 6" />
+  </div>
+
+  <!-- Row 2: 5 icons -->
+  <div class="icon-row flex justify-center gap-6 sm:gap-4 md:gap-2 flex-wrap">
+    <img src="../../assets/images/7.svg" class="integration-icon" alt="Integration 7" />
+    <img src="../../assets/images/8.svg" class="integration-icon" alt="Integration 8" />
+    <img src="../../assets/images/9.svg" class="integration-icon" alt="Integration 9" />
+    <img src="../../assets/images/10.svg" class="integration-icon" alt="Integration 10" />
+    <img src="../../assets/images/_Client logo mark.png " class="integration-icon" alt="Integration 11" />
+  </div>
+
+  <!-- Row 3: 4 icons -->
+  <div class="icon-row flex justify-center gap-6 sm:gap-4 md:gap-2 flex-wrap">
+    <img src="../../assets/images/12.svg" class="integration-icon" alt="Integration 12" />
+    <img src="../../assets/images/13.svg" class="integration-icon" alt="Integration 13" />
+    <img src="../../assets/images/14.svg" class="integration-icon" alt="Integration 14" />
+    <img src="../../assets/images/15.svg" class="integration-icon" alt="Integration 15" />
+  </div>
+
+  <button class="bg-[#009379] hover:bg-emerald-700 text-white px-10 py-3 rounded-lg text-base font-semibold">
+    View All Integrations
+  </button>
+</section>
+
+
+<section class="flex flex-col bg-[#F8D57E]">
+    <!-- Main content -->
+    <div class="flex-grow px-4 pt-12">
+      <div class="text-center mb-8">
+        <h1 class=" font-extrabold max-w-[1280px] h-auto font-poppins font-bold text-[28px] sm:text-[35px] md:text-[42px] leading-[120%] sm:leading-[125%] md:leading-[130%] text-center tracking-[-0.02em] text-[#2D2D2D] mx-auto">
+  Get Landing Page UI Kit Today!
+</h1>
+
+
+        <p class="mt-4 text-gray-800">
+          Break Figma limits and explore the endless possibilities with Anima.
         </p>
 
+        <!-- Centered Button -->
+        <div class="mt-6 flex justify-center">
+          <a href="#" class="flex items-center justify-center gap-2 px-5 py-3 w-[190px] h-[52px] bg-[#009379] text-white rounded-2xl font-semibold">
+            <img src="../../assets/images/RocketLaunch.png" class="w-4 h-4" />
+            Get Started
+          </a>
+        </div>
       </div>
 
-<!-- Subtitle Section -->
-<div class="max-w-[900px] mx-auto px-6 md:px-8 mt-6 ">
-  <p class="font-roboto text-center text-white font-extralight text-[30px] leading-[160%] ">
-    Sit elit feugiat turpis sed integer integer accumsan turpis.   Sed suspendisse nec lorem mauris.
-  </p>
-
-</div>
-
-
-
-
-
-      <button class="mt-12 bg-btn cursor-pointer px-10 py-3 rounded-lg text-white font-bold 
-  border-2 border-btn hover:bg-white hover:text-btn hover:border-btn transition-all duration-200">
-  Request Demo
-</button>
-<div class="w-full flex flex-col items-center justify-center relative mt-17">
-  <!-- Desktop image should be centered with shadow -->
-  <img src="../../assets/images/Desktop.png" class="relative z-20 mt-4 lg:w-[1200px] md:w-[900px] w-[600px]  rounded-xl">    
-
-  <!-- Background images behind Desktop -->
-  <img src="../../assets/images/Lines.png" class="absolute top-55 w-full z-10">
-  <img src="../../assets/images/White.png" class="absolute -bottom-2 w-full z-0">
-</div>
-</div>
-<!-- Platforms Section -->
-<div class="flex flex-wrap items-center justify-center gap-12 sm:gap-10 md:gap-16 lg:gap-20 pt-10 w-full">
-  <img src="../../assets/images/Platform1.png" class="w-16 sm:w-20 md:w-24 lg:w-">
-  <img src="../../assets/images/Platform2.png" class="w-16 sm:w-20 md:w-24 lg:w-28">
-  <img src="../../assets/images/Platform3.png" class="w-16 sm:w-20 md:w-24 lg:w-28">
-  <img src="../../assets/images/Platform4.png" class="w-16 sm:w-20 md:w-24 lg:w-28">
-  <img src="../../assets/images/Platform5.png" class="w-16 sm:w-20 md:w-24 lg:w-28">
-</div>
-
-<div class=" mt-27 flex lg:flex-row md:flex-row flex-col-reverse lg:px-20 md:px-12 px-5 pt-20 lg:gap-16 md:gap-12 gap-8 max-w-[1400px] mx-auto items-center">
-  <!-- Left Side: Image -->
-  <div class="w-full flex justify-start lg:max-w-[55%] sm:ml-15">
-    <img src="../../assets/images/Efficient.png" class="max-w-full">
-  </div>
-
-  <!-- Right Side: Text -->
-  <div class="font-roboto flex items-start justify-center flex-col lg:gap-8 md:gap-4 gap-3 text-btn max-w-[500px]">
-    <p class="md:text-5xl lg:text-5xl text-3xl font-bold text-left">
-      Efficient collaboration
-    </p>
-    <p class="leading-relaxed  text-left lg:text-lg md:text-base text-sm">
-      Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper.
-    </p>
-  </div>
-</div>
-
-
-<div class="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 lg:px-32 md:px-10 px-5 py-20 lg:gap-16 md:gap-10 gap-5 max-w-[1800px] mx-auto ">
-  <div class="font-roboto flex items-start justify-center flex-col lg:gap-8 md:gap-4 sm:ml-15 gap-3 text-btn max-w-[500px]">
-    <p class="md:text-5xl lg:text-5xl text-3xl font-bold text-left">
-      Work from anywhere
-    </p>
-    <p class="leading-relaxed  text-left lg:text-lg md:text-base text-sm">
-      In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper. Ultrices in amet, ullamcorper non viverra a, neque orci.
-    </p>
-    <div class="flex gap-5 items-center lg:justify-normal md:justify-normal justify-center">
-      <img src="../../assets/images/Apple.png">
-      <img src="../../assets/images/Google.png">
+      <!-- Image directly above footer -->
+      <div class="flex justify-center">
+        <picture>
+          <source srcset="../../assets/images/image-desktop.png" media="(min-width: 1280px)" />
+          <source srcset="../../assets/images/image-tablet.png" media="(min-width: 747px)" />
+          <img src="../../assets/images/image-mobile.png" alt="Landing Visual" class="w-full max-w-5xl rounded-lg shadow-md" />
+        </picture>
+      </div>
     </div>
 
-
-     </div>
-     <div class=" flex justify-center sm:ml-15">
-       <img src="../../assets/images/Phone1.png" alt="">
-     </div>
-   </div>
-   <div class=" bg-bl h-98 sm:h-102 flex flex-col items-center justify-center text-white gap-10 ">
-     <p class="font-roboto md:text-6xl lg:text-6xl text-4xl font-bold text-center ">All the tech & design tools combined</P>
-      <p class="font-roboto text-center text-white font-extralight text-[32px] leading-[160%]">
-        Turpis purus, imperdiet integer amet, eu.</P>
-
-        <button class=" bg-btn cursor-pointer px-10 py-3 rounded-lg text-white font-bold 
-  border-2 border-btn hover:bg-white hover:text-btn hover:border-btn transition-all duration-200">
-  Request Demo
-</button>   </div>
-   <div class=" flex items-center justify-center flex-col gap-14  text-btn py-20 ">
-       <p class="font-roboto sm:text-1xl md:text-6xl lg:text-6xl  text-4xl font-bold text-center">Get your business to grow fast</p>
-       <p class="font-roboto text-center leading-loose lg:text-xl md:text-xl text-base max-w-[900px]">Aliquet id quam amet, augue netus tristique elementum eros urna. Dignissim nisl mauris cras feugiat
-         congue at euismod donec.Lectus interdum nibh laoreet nunc bibendum volutpat.</p>
-       <div class=" mx-10 relative">
-         
-        <div class="relative flex justify-center items-center">
-  <img src="../../assets/images/rec.png" class="absolute inset-0 m-auto z-0  md:w-[1100px] w-[600px]">
-  <img src="../../assets/images/Desktop.png" class="px-10 relative z-10 md:w-[1100px] w-[600px]">
-</div>
-
-       </div>
-         
-   </div>
-   <div class="text-txt grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-4 sm:px-10 md:px-20 lg:px-32">
-  <div class="flex flex-col items-center text-center space-y-4">
-    <img src="../../assets/images/watch.png" alt="" class="w-14 h-13">
-    <p class="font-roboto text-2xl font-bold text-gray-900">Nisl arcu nunc</p>
-    <p class="font-roboto text-lg text-gray-900 w-[290px]">Dui consectetur gravida platea ut dis diam. Enim morbi proin auctor et.</p>
-  </div>
-  
-  <div class="flex flex-col items-center text-center space-y-4">
-    <img src="../../assets/images/tourn.png" alt="" class="w-14 h-13">
-    <p class="font-roboto text-2xl font-bold text-gray-900">Dui scelerisque</p>
-    <p class="font-roboto text-lg text-gray-900 w-[290px]">Et sit duis vestibulum proin. Sollicitudin velit, etiam a feugiat sagittis.</p>
-  </div>
-
-  <div class="flex flex-col items-center text-center space-y-4">
-    <img src="../../assets/images/three-stars.png" alt="" class="w-14 h-13">
-    <p class="font-roboto text-2xl font-bold text-gray-900">Ac proin at</p>
-    <p class="font-roboto text-lg text-gray-900 w-[290px]">Elit purus magna donec mattis amet, leo varius sed. Ut metus sed convallis.</p>
-  </div>
-</div>
-
-
-
-
-
-
-
-<div class="max-w-[1440px] mx-auto min-h-[500px] p-10 bg-yellow-500 rounded-2xl shadow-lg flex flex-col md:flex-row items-center justify-between relative mt-40">
+    <footer class="bg-gray-900 text-white text-sm py-6 px-4">
+  <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
     
-    <!-- Left Text Section -->
-    <div class="w-full md:w-1/2 p-6 md:pl-14 text-left lg:ml-20">
-      <p class="text-black text-lg leading-relaxed w-full md:w-[400px]">
-        {{ slides[currentIndex].text }}
-      </p>
-      <p class="mt-4 text-black font-semibold">{{ slides[currentIndex].author }}</p>
-      <p class="font-bold">{{ slides[currentIndex].company }}</p>
+    <!-- Text left on all screens -->
+    <p class="text-left">© 2023 Anima’s Landing Page UI Kit.</p>
 
-  <!-- Pagination Dots for Large Screens -->
-<div class="hidden md:flex mt-6 gap-2">
-  <div
-    v-for="(slide, index) in slides"
-    :key="index"
-    class="cursor-pointer rounded-full transition-all duration-300 ease-in-out"
-    :class="{
-      // Default size for unselected dots
-      'w-[12px] h-[6px] bg-gray-300': currentIndex !== index,  
-      
-      // Enlarged size when selected
-      'w-[32px] h-[12px] bg-purple-600': currentIndex === index,  
+    <!-- Icons: above text (mobile), right side (desktop) -->
+    <div class="flex gap-3 md:gap-5 mr-10 md:justify-end">
+      <!-- Social icons -->
+      <img src="../../assets/images/icon1.png" alt="Icon 1"class="w-9 h-9" />
+<img src="../../assets/images/icon2.png" alt="Icon 2" class="w-9 h-9" />
+<img src="../../assets/images/icon3.png" alt="Icon 3" class="w-9 h-9" />
+<img src="../../assets/images/icon4.png" alt="Icon 4" class="w-9 h-9" />
 
-      // Large screens (md and above) - Bigger dots
-      'md:w-[40px] md:h-[16px]': currentIndex === index,  
-      'md:w-[14px] md:h-[8px]': currentIndex !== index  
-    }"
-    @click="setCurrentIndex(index)"
-  ></div>
-</div>
-</div>
-
-
-<div class="relative flex justify-center items-center mr-21">
-  <!-- Background Rectangle (Purple) -->
-  <div
-    class="absolute z-0 flex-none order-0 flex-grow-0 
-     lg:left-[1px] lg:w-[495px] lg:h-[573px] lg:rotate-[-30deg]
-     sm:left-[20px] sm:w-[450px] sm:h-[450px] sm:rotate-[140deg]
-     responsive-class"
-    :style="{
-      backgroundColor: '#701A75',
-      borderRadius: '50px'
-    }"
-  ></div>
-
-  <!-- Right Image Section -->
-  <div class="relative z-10 flex justify-center items-center">
-    <transition name="slide-fade" mode="out-in">
-      <img 
-        :key="slides[currentIndex].image" 
-        :src="slides[currentIndex].image" 
-        alt="Slide" 
-        class="w-full md:w-auto min-w-[200px] sm:min-w-[250px] max-w-[300px] sm:max-w-[350px] md:max-w-[500px] h-auto rounded-2xl sm:mb-4 object-contain sm:ml-200px" 
-        :style="{ height: `${slides[currentIndex].height}px` }" 
-      />
-    </transition>
-
-    <!-- Chat Icon -->
-    <div class="absolute top-[-15px] right-[-10px] p-3">
-      <img src="../../assets/images/chat-quote.png" alt="Chat" class="w-6 h-6">
     </div>
-  </div>
-</div>
-
-    
-<!-- Pagination Dots for Small Screens -->
-<div class="flex md:hidden mt-4 gap-2 order-3">
-  <div
-    v-for="(slide, index) in slides"
-    :key="index"
-    class="cursor-pointer rounded-full transition-all duration-300 ease-in-out"
-    :class="{
-      // Default size for unselected dots
-      'w-[10px] h-[6px] bg-gray-300': currentIndex !== index,  
-
-      // Enlarged size when selected
-      'w-[30px] h-[12px] bg-purple-600': currentIndex === index,  
-
-      // Further adjustments for extra small screens
-      'max-[393px]:w-[25px] max-[393px]:h-[10px]': currentIndex === index,  
-      'max-[393px]:w-[8px] max-[393px]:h-[5px]': currentIndex !== index  
-    }"
-    @click="setCurrentIndex(index)"
-  ></div>
-</div>
-
-    <!-- Navigation Arrows -->
-    <button class="absolute left-4 top-1/2 transform -translate-y-1/2 p-2" @click="prevSlide">
-      <img src="../../assets/images/chevron-left.svg" alt="Previous" class="w-10 h-10" />
-    </button>
-    <button class="absolute right-4 top-1/2 transform -translate-y-1/2 p-2" @click="nextSlide">
-      <img src="../../assets/images/chevron-right.svg" alt="Next" class="w-10 h-10" />
-    </button>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<p class="font-roboto lg:text-6xl md:text-6xl sm:text-2xl text-5xl  text-center font-bold py-20 sm:py-24 mt-10 sm:mt-40 sm:px-6">
-  The features you were looking for
-</p>
-
-   <div class=" grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-10 gap-5 text-txt mb-1">
-
-    <div class=" flex flex-col items-centerpy-5 px-5 gap-5">
-      <img src="../../assets/images/Tech1.png" alt="">
-      <div>
-      <p class="font-roboto text-2xl font-bold ">Pellentesque turpis vestibulum</p>
-      <p class="text-[18px]">Ullamcorper enim, diam eros sed et vitae sit. Platea porttitor consequat, lorem in arcu et.</p></div>
-    </div>
-
-    <div class=" flex flex-col items-centerpy-5 px-5 gap-5">
-      <img src="../../assets/images/Tech2.png" alt="">
-      <div>
-      <p class="font-roboto text-2xl font-bold">Tincidunt quisque</p>
-      <p class="text-[18px]" >Blandit ut tortor non, imperdiet. Morbi quam facilisis a nec tortor.</p></div>
-    </div>
-
-    <div class=" flex flex-col items-centerpy-5 px-5 gap-5">
-      <img src="../../assets/images/Tech3.png" alt="">
-      <div>
-      <p class="font-roboto text-2xl font-bold">Tincidunt magna diam</p>
-      <p class="text-[18px]">Massa mi pharetra viverra risus ornare sit. Viverra tortor, nulla et tellus, nunc.</p></div>
-    </div>
-
-    <div class=" flex flex-col items-centerpy-5 px-5 gap-5 mt-15">
-      <img src="../../assets/images/Tech4.png" alt="">
-      <div>
-      <p class="font-roboto text-2xl font-bold">Purus habitasse</p>
-      <p class="text-[18px]">Massa arcu ut id risus et. Neque mauris sagittis cursus tincidunt egestas faucibus amet adipiscing scelerisque.</p></div>
-    </div>
-
-    <div class=" flex flex-col items-centerpy-5 px-5 gap-5  mt-15">
-      <img src="../../assets/images/Tech5.png" alt="">
-      <div>
-      <p class="font-roboto text-2xl font-bold">Dictum elementum</p>
-      <p class="text-[18px]">Ullamcorper aliquam maecenas sapien sapien tempus tincidunt urna tempus. Dignissim ut felis a dui a massa risus.</p></div>
-    </div>
-
-    <div class=" flex flex-col items-centerpy-5 px-5 gap-5  mt-15">
-      <img src="../../assets/images/Tech6.png" alt="">
-      <div>
-      <p class="font-roboto text-2xl font-bold">Semper vulputate ut</p>
-      <p class="text-[18px]">Tortor arcu eget nisi neque, in nunc metus. Posuere in egestas pharetra euismod commodo vitae consectetur.</p></div>
-    </div>
-   </div>
- <p class="font-roboto text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-center font-bold py-10 px-5 mt-29">
-  Technology design articles
-</p>
-<p class="font-roboto lg:text-2xl md:text-2xl sm:text-lg text-lg text-center pb-10 mt-2 sm:pl-8 sm:pr-8 md:pl-10 md:pr-10 max-[393px]:px-5 max-[320px]:px-3">
-  Felis, semper ullamcorper sed pretium tristique vulputate semper massa ultrices. Integer orci gravida blandit amet.
-</p>
-
-
-   <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 px-10 py-10 max-w-[90%] sm:max-w-[97%] mx-auto mt-9">
-    <div class=" border-2 rounded-2xl ">
-        <div class=""> <img src="../../assets/images/Design.png" class=" w-full rounded-t-2xl"></div>
-        <div class=" w-fit px-10 py-5 flex flex-col gap-4">
-          <p class="font-roboto font-bold text-lg">Title</p>
-          <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-          <div class="text-purple flex items-center gap-2 cursor-pointer mt-10">
-    <button class="flex items-center gap-2 cursor-pointer text-fuchsia-900 font-roboto font-medium text-base leading-6 tracking-wide">
-        Read article
-        <img src="../../assets/images/purple.png" alt="" class="w-6 h-6 ml-2">
-    </button>
-</div>
-        </div>
-      </div>
-
-      <div class=" border-2 rounded-2xl px ">
-        <div > <img src="../../assets/images/Design2.png" class=" w-full rounded-t-2xl"></div>
-        <div class=" w-fit px-10 py-5 flex flex-col gap-4">
-          <p class="font-roboto font-bold text-lg">Title</p>
-          <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-          <div class="text-purple flex items-center gap-2 cursor-pointer mt-10">
-    <button class="flex items-center gap-2 cursor-pointer text-fuchsia-900 font-roboto font-medium text-base leading-6 tracking-wide">
-        Read article
-        <img src="../../assets/images/purple.png" alt="" class="w-6 h-6 ml-2">
-    </button>
-</div>
-
-
-        </div>
-      </div>
-
-      <div class=" border-2 rounded-2xl ">
-        <div class=""> <img src="../../assets/images/Design3.png" class=" w-full rounded-t-2xl"></div>
-        <div class=" w-fit px-10 py-5 flex flex-col gap-4">
-          <p class="font-roboto font-bold text-lg">Title</p>
-          <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-          <div class="text-purple flex items-center gap-2 cursor-pointer mt-10">
-    <button class="flex items-center gap-2 cursor-pointer text-fuchsia-900 font-roboto font-medium text-base leading-6 tracking-wide">
-        Read article
-        <img src="../../assets/images/purple.png" alt="" class="w-6 h-6 ml-2">
-    </button>
-</div>
-        </div>
-      </div>
-   </div>
-   <p class="font-roboto lg:text-6xl md:text-6xl sm:text-5xl text-5xl  text-center font-bold py-10 px-5 mt-20">Frequently asked questions</p>
-
-   <div class="px-10 text-txt py-10 mt-10">
-    <div
-      v-for="(item, index) in errorList"
-      :key="index"
-      class="flex flex-col py-8 border-t-2 border-gray-300 cursor-pointer"
-      @click="toggleInfo(index)"
-    >
-      <div class="flex items-center justify-between">
-        <p>{{ item.question }}</p>
-        <img
-          :src="item.isOpen ? upIcon : downIcon"
-          class="size-6 transition-transform duration-300"
-        />
-      </div>
-      <p v-if="item.isOpen" class="mt-4 text-gray-600">{{ item.info }}</p>
-    </div>
-  </div>
-
-   <div class=" bg-bg h-90 flex flex-col items-center justify-center text-white gap-10 ">
-     <p class="font-roboto md:text-5xl lg:text-5xl text-4xl font-bold text-center ">Ready for your next project ?</P>
-     <p class="font-roboto  lg:text-3xl md:text-3xl text-xl text-center">Sit elit feugiat turpis sed integer integer accumsan turpis.</P>
-      <button class=" bg-btn cursor-pointer px-10 py-3 rounded-lg text-white font-bold 
-  border-2 border-btn hover:bg-white hover:text-btn hover:border-btn transition-all duration-200">
-  Request Demo
-</button>   </div>
-   <footer class="bg-white p-10 text-gray-700 mt-auto w-full">
-  <div class="max-w-[1920px] mx-auto px-6 lg:px-20">
-    <!-- Top Footer Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-      <!-- Logo Section -->
-      <div class="flex flex-col">
-        <div class="flex items-center gap-2">
-          <img src="../../assets/images/Logo.svg"  class="w-7">
-          <span class="text-xl font-bold text-primary" style="color: #701A75; font-family: 'Roboto'; font-size: 28px; 
-          line-height: 110%; width: 111px; height: 35px; display: flex; align-items: center; flex: none; order: 1; flex-grow: 0;">
-    protech
-</span>
-        </div>
-      </div>
-
-      <!-- Product Section -->
-      <div>
-        <h3 class="text-gray-500 font-semibold mb-3">PRODUCT</h3>
-        <ul class="space-y-4">
-          <li>Pricing</li>
-          <li>Overview</li>
-          <li>Browse</li>
-          <li>Accessibility</li>
-          <li>Five</li>
-        </ul>
-      </div>
-
-      <!-- Solutions Section -->
-      <div>
-        <h3 class="text-gray-500 font-semibold mb-3">SOLUTIONS</h3>
-        <ul class="space-y-4">
-          <li>Brainstorming</li>
-          <li>Ideation</li>
-          <li>Wireframing</li>
-          <li>Research</li>
-        </ul>
-      </div>
-
-      <!-- Resources Section -->
-      <div>
-        <h3 class="text-gray-500 font-semibold mb-3">RESOURCES</h3>
-        <ul class="space-y-4">
-          <li>Help Center</li>
-          <li>Blog</li>
-          <li>Tutorials</li>
-        </ul>
-      </div>
-
-      <!-- Company Section -->
-      <div>
-        <h3 class="text-gray-500 font-semibold mb-3">COMPANY</h3>
-        <ul class="space-y-4">
-          <li>About</li>
-          <li>Press</li>
-          <li>Events</li>
-          <li>Careers</li>
-        </ul>
-      </div>
-    </div>
-
- <!-- Bottom Footer -->
-<div class="border-t mt-6 pt-6 text-sm flex flex-col md:flex-row justify-between items-center flex-wrap gap-4 px-4">
-  <!-- Copyright Text -->
-  <p class="text-gray-500 text-center md:text-left">@ 2023 Protech, Inc. All rights reserved.</p>
-
-  <!-- Links -->
-  <div class="flex gap-6 flex-wrap justify-center">
-    <a href="#" class="hover:underline text-gray-500">Terms</a>
-    <a href="#" class="hover:underline text-gray-500">Privacy</a>
-    <a href="#" class="hover:underline text-gray-500">Contact</a>
-  </div>
-
-  <!-- Social Media Icons -->
-  <div class="flex gap-5 justify-center">
-    <img src="../../assets/images/youtube.png" alt="YouTube" class="w-5">
-    <img src="../../assets/images/facebook.png" alt="Facebook" class="w-5">
-    <img src="../../assets/images/twitter.png" alt="Twitter" class="w-5">
-    <img src="../../assets/images/instagram.png" alt="Instagram" class="w-5">
-    <img src="../../assets/images/linkedin.png" alt="LinkedIn" class="w-5">
-  </div>
-</div>
 
   </div>
 </footer>
+
+
+  </section>
   </div>
 
+
+
+
+
+
+
+
+    </div>
+  </div>
 </template>
 
 
 <script setup>
 import { ref } from "vue";
-import downIcon from "@/assets/images/down.png";
-import upIcon from "@/assets/images/up.png"; // Add an "up" icon if needed
 
-const errorList = ref([
-  { 
-    question: "Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?", 
-    info: "This issue is caused by improper alignment of elements within the grid system.", 
-    isOpen: false 
-  },
-  { 
-    question: "Venenatis nulla sagittis nunc, lobortis nec sollicitudin neque, dolor?", 
-    info: "This error occurs when a function is called before it's defined.", 
-    isOpen: false 
-  },
-  { 
-    question: "Varius ultricies molestie tellus fermentum, viverra ipsum scelerisque etiam lorem?", 
-    info: "Common causes include CSS conflicts, missing stylesheets, or improper use of class selectors.", 
-    isOpen: false 
-  },
-]);
-// Import images
-import desktopImage from "@/assets/images/Col.png";
-import colImage from "@/assets/images/Guy.jpg";
-import futuristicImage from "@/assets/images/Col.png";
-import natureImage from "@/assets/images/Col.png";
 
-// Slides data
-const slides = ref([
-  {
-    image: desktopImage,
-    text: "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
-    author: "Marie Poirot",
-    company: "Bigapp",
-  },
-  {
-    image: colImage,
-    text: "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
-    author: "John Doe",
-    company: "TechCorp",
-    height: 390, // Reduced height for colImage
-    width:900,
-
-  },
-  {
-    image: futuristicImage,
-    text: "A vision of tomorrow, where AI meets human creativity. A seamless blend of technology and innovation, pushing the boundaries of what's possible.",
-    author: "Liam Carter",
-    company: "NeuralX",
-  },
-  {
-    image: natureImage,
-    text: "Lost in the wilderness, where every leaf tells a story and the wind carries the whispers of the earth. A return to the roots of inspiration.",
-    author: "Sophie Lang",
-    company: "EcoSphere",
-  },
-]);
-
-const currentIndex = ref(0);
-const transitioning = ref(false);
-
-// Computed property for animated class
-const slideDirection = ref("next");
-
-// Slide change function with animation
-const changeSlide = (newIndex, direction) => {
-  if (transitioning.value) return; // Prevent spam clicks
-  transitioning.value = true;
-  slideDirection.value = direction;
-
-  setTimeout(() => {
-    currentIndex.value = newIndex;
-    transitioning.value = false;
-  }, 300); // Duration should match CSS animation
-};
-
-const prevSlide = () => {
-  const newIndex = currentIndex.value === 0 ? slides.value.length - 1 : currentIndex.value - 1;
-  changeSlide(newIndex, "prev");
-};
-
-const nextSlide = () => {
-  const newIndex = currentIndex.value === slides.value.length - 1 ? 0 : currentIndex.value + 1;
-  changeSlide(newIndex, "next");
-};
-
-const setCurrentIndex = (index) => {
-  changeSlide(index, index > currentIndex.value ? "next" : "prev");
-};
 </script>
 
-<style>
-.slide-fade-enter-active, .slide-fade-leave-active {
-  transition: transform 0.5s ease, opacity 0.5s ease;
-}
-.slide-fade-enter-from {
-  transform: translateX(100%);
-  opacity: 0;
-}
-.slide-fade-leave-to {
-  transform: translateX(-100%);
-  opacity: 0;
-}
-</style>
+
+  <style>
+    .integration-icon {
+      width: clamp(7rem, 6vw, 5rem);  /* Auto-shrinks on small screens */
+      height: auto;
+    }
+    .icon-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: clamp(7.55rem, 2vw, 2rem);
+      
+      margin-bottom: 2rem;
+      padding: 0 1rem;
+    }
+  </style>
