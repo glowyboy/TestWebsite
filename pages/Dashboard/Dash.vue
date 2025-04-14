@@ -175,32 +175,36 @@
 </section>
 <section class="bg-[#F8D57E] py-22 px-4 mt-30">
   <div class="text-center mb-10 mt-4">
-    <h2 class="font-poppins text-2xl md:text-3xl font-extrabold font-bold">Real Stories from Satisfied Customers</h2>
-    <p class="mt-2 text-gray-700">See how our landing page UI kit is making an impact.</p>
+    <h2 class="font-poppins text-2xl md:text-3xl font-extrabold font-bold">
+      Real Stories from Satisfied Customers
+    </h2>
+    <p class="mt-2 text-gray-700">
+      See how our landing page UI kit is making an impact.
+    </p>
   </div>
 
   <div class="flex flex-col md:flex-row md:justify-center md:space-x-6 space-y-6 md:space-y-0 max-w-6xl mx-auto">
 
-    <!-- Testimonial Card -->
-    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] flex flex-row items-center md:items-start max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
-
-      <!-- Avatar (ALWAYS ON TOP FOR SMALL SCREENS) -->
-      <div class="hidden max-[430px]:block mb-2">
+    <!-- Testimonial 1 -->
+    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
+      <!-- Avatar Mobile -->
+      <div class="block md:hidden mb-4">
         <img src="../../assets/images/Lauren1.png" alt="Lauren M." class="w-24 h-24 rounded-full mx-auto">
       </div>
 
-      <!-- Content -->
-      <div class="flex flex-col md:flex-row md:items-start w-full">
-        <!-- Avatar on wider screens -->
-        <div class="md:w-1/3 px-2 hidden md:flex flex-col items-center text-center">
+      <!-- Desktop layout -->
+      <div class="flex flex-col md:flex-row w-full items-center md:items-start">
+
+        <!-- Avatar Desktop -->
+        <div class="hidden md:flex md:w-1/3 flex-col items-center text-center px-2">
           <img src="../../assets/images/Lauren1.png" alt="Lauren M." class="w-24 h-24 rounded-full mb-3">
         </div>
 
-        <!-- Text Block -->
-        <div class="md:w-2/3 px-4 max-[430px]:px-0 flex flex-col items-start max-[430px]:items-center text-left max-[430px]:text-center">
+        <!-- Content -->
+        <div class="md:w-2/3 px-4 flex flex-col items-center md:items-start text-center md:text-left">
 
           <!-- Stars -->
-          <div class="flex justify-center text-yellow-500 text-lg mb-2 space-x-0.5">
+          <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5">
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
@@ -222,23 +226,26 @@
       </div>
     </div>
 
-    <!-- Duplicate same structure for Testimonial 2 -->
-    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] flex flex-row items-center md:items-start max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
-
-      <!-- Avatar Small -->
-      <div class="hidden max-[430px]:block mb-2">
+    <!-- Testimonial 2 -->
+    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] flex flex-col md:flex-row items-center md:items-start text-center md:text-left">
+      <!-- Avatar Mobile -->
+      <div class="block md:hidden mb-4">
         <img src="../../assets/images/David.png" alt="David B." class="w-24 h-24 rounded-full mx-auto">
       </div>
 
-      <!-- Content -->
-      <div class="flex flex-col md:flex-row md:items-start w-full">
-        <div class="md:w-1/3 px-2 hidden md:flex flex-col items-center text-center">
+      <!-- Desktop layout -->
+      <div class="flex flex-col md:flex-row w-full items-center md:items-start">
+
+        <!-- Avatar Desktop -->
+        <div class="hidden md:flex md:w-1/3 flex-col items-center text-center px-2">
           <img src="../../assets/images/David.png" alt="David B." class="w-24 h-24 rounded-full mb-3">
         </div>
 
-        <div class="md:w-2/3 px-4 max-[430px]:px-0 flex flex-col items-start max-[430px]:items-center text-left max-[430px]:text-center">
+        <!-- Content -->
+        <div class="md:w-2/3 px-4 flex flex-col items-center md:items-start text-center md:text-left">
 
-          <div class="flex justify-center text-yellow-500 text-lg mb-2 space-x-0.5">
+          <!-- Stars -->
+          <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5">
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
@@ -246,11 +253,13 @@
             <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           </div>
 
+          <!-- Name and Role -->
           <div class="mb-2">
             <p class="font-bold text-lg">David B.</p>
             <p class="text-gray-500 text-sm text-[12px]">Lead Designer @Creative</p>
           </div>
 
+          <!-- Testimonial -->
           <p class="text-sm text-gray-600 mt-2">
             "The Landing Page UI Kit has been a game changer. The pre-designed components and templates have helped us deliver projects faster!"
           </p>
