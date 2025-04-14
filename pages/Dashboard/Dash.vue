@@ -174,10 +174,9 @@
   </div>
 </section>
 
-
 <section class="bg-[#F8D57E] py-22 px-4 mt-30">
   <div class="text-center mb-10 mt-4">
-    <h2 class=" font-poppins text-2xl md:text-3xl font-extrabold font-bold ">Real Stories from Satisfied Customers</h2>
+    <h2 class="font-poppins text-2xl md:text-3xl font-extrabold font-bold">Real Stories from Satisfied Customers</h2>
     <p class="mt-2 text-gray-700">See how our landing page UI kit is making an impact.</p>
   </div>
 
@@ -195,8 +194,8 @@
       </div>
 
       <!-- Stars + Testimonial -->
-      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4">
-        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5">
+      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4 max-[430px]:flex max-[430px]:flex-col max-[430px]:items-center">
+        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5 max-[430px]:justify-center">
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
@@ -222,8 +221,8 @@
       </div>
 
       <!-- Stars + Testimonial -->
-      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4">
-        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5">
+      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4 max-[430px]:flex max-[430px]:flex-col max-[430px]:items-center">
+        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5 max-[430px]:justify-center">
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
@@ -239,6 +238,7 @@
 
   </div>
 </section>
+
 
 
 
