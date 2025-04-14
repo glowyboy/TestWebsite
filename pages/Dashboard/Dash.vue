@@ -183,19 +183,18 @@
   <div class="flex flex-col md:flex-row md:justify-center md:space-x-6 space-y-6 md:space-y-0 max-w-6xl mx-auto">
 
     <!-- Testimonial 1 -->
-    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%]
-                flex flex-row items-center
-                max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
-      <!-- Avatar + Info -->
+    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] flex flex-row items-center max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
+
+      <!-- Avatar -->
       <div class="flex flex-col items-center text-center md:w-1/3 px-2">
-        <img src="../../assets/images/Lauren1.png" alt="Lauren M." class="w-25 h-25 rounded-full mb-3">
-        <p class="font-bold text-lg">Lauren M.</p>
-        <p class="text-gray-500 text-sm text-[12px]">UI Designer @Bloo</p>
+        <img src="../../assets/images/Lauren1.png" alt="Lauren M." class="w-24 h-24 rounded-full mb-3">
       </div>
 
-      <!-- Stars + Testimonial -->
-      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4 max-[430px]:flex max-[430px]:flex-col max-[430px]:items-center">
-        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5 max-[430px]:justify-center">
+      <!-- Content -->
+      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-0 flex flex-col items-start max-[430px]:items-center text-left max-[430px]:text-center">
+
+        <!-- Stars -->
+        <div class="flex text-yellow-500 text-lg mb-2 space-x-0.5 max-[430px]:justify-center">
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
@@ -203,26 +202,32 @@
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
         </div>
 
-        <p class="text-sm text-gray-600 mt-5">
+        <!-- Name & Job -->
+        <div class="mb-2">
+          <p class="font-bold text-lg">Lauren M.</p>
+          <p class="text-gray-500 text-sm text-[12px]">UI Designer @Bloo</p>
+        </div>
+
+        <!-- Testimonial -->
+        <p class="text-sm text-gray-600 mt-2">
           "Animo’s Landing Page UI Kit has become a staple in my design toolkit. This kit has everything I need to get the job done quickly and efficiently."
         </p>
       </div>
     </div>
 
     <!-- Testimonial 2 -->
-    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%]
-                flex flex-row items-center
-                max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
-      <!-- Avatar + Info -->
+    <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%] flex flex-row items-center max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
+
+      <!-- Avatar -->
       <div class="flex flex-col items-center text-center md:w-1/3 px-2">
-        <img src="../../assets/images/David.png" alt="David B." class="w-25 h-25 rounded-full mb-3">
-        <p class="font-bold text-lg">David B.</p>
-        <p class="text-gray-500 text-sm text-[12px]">Lead Designer @Creative</p>
+        <img src="../../assets/images/David.png" alt="David B." class="w-24 h-24 rounded-full mb-3">
       </div>
 
-      <!-- Stars + Testimonial -->
-      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4 max-[430px]:flex max-[430px]:flex-col max-[430px]:items-center">
-        <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5 max-[430px]:justify-center">
+      <!-- Content -->
+      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-0 flex flex-col items-start max-[430px]:items-center text-left max-[430px]:text-center">
+
+        <!-- Stars -->
+        <div class="flex text-yellow-500 text-lg mb-2 space-x-0.5 max-[430px]:justify-center">
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
@@ -230,7 +235,14 @@
           <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5" />
         </div>
 
-        <p class="text-sm text-gray-600 mt-5">
+        <!-- Name & Job -->
+        <div class="mb-2">
+          <p class="font-bold text-lg">David B.</p>
+          <p class="text-gray-500 text-sm text-[12px]">Lead Designer @Creative</p>
+        </div>
+
+        <!-- Testimonial -->
+        <p class="text-sm text-gray-600 mt-2">
           "The Landing Page UI Kit has been a game changer. The pre-designed components and templates have helped us deliver projects faster!"
         </p>
       </div>
@@ -238,6 +250,7 @@
 
   </div>
 </section>
+
 
 
 
