@@ -306,47 +306,70 @@
     </section>
 
     <div class="text-center px-4 py-12 space-y-16">
-      <section class="bg-gray-50 py-16">
-  <div class="max-w-6xl mx-auto text-center px-4">
-    <h2 class="text-3xl font-bold mb-2">More than 50 Integrations</h2>
-    <p class="text-gray-600 mb-10">We integrate with more than 50 apps you use daily</p>
+  <section class="bg-gray-50 py-16">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold mb-2">More than 50 Integrations</h2>
+      <p class="text-gray-600 mb-10">We integrate with more than 50 apps you use daily</p>
 
-    <!-- First row: 6 icons -->
-    <div class="flex justify-center flex-wrap gap-x-12 gap-y-6 mb-6">
-      <img src="../../assets/images/Logo11.svg" class="h-19 w-auto" />
-      <img src="../../assets/images/1.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/2.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/3.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/4.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/5.svg" class="h-27 w-auto" />
+      <!-- Mobile grid layout, fallback for small screens -->
+      <div class="grid grid-cols-3 gap-6 sm:hidden">
+        <img src="../../assets/images/Logo11.svg" class="h-18 w-auto mt-2 ml-5" />
+        <img src="../../assets/images/1.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/2.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/3.svg" class="h-27 w-auto mr-4" />
+        <img src="../../assets/images/4.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/5.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/7.svg" class="h-27 w-auto ml-5" />
+        <img src="../../assets/images/8.svg" class="h-27 w-auto ml-1" />
+        <img src="../../assets/images/9.svg" class="h-27 w-auto ml-1" />
+        <img src="../../assets/images/10.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/_Client logo mark.svg" class="h-16 w-auto mt-2 ml-6" />
+        <img src="../../assets/images/12.svg" class="h-27 w-auto ml-7" />
+        <img src="../../assets/images/13.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/14.svg" class="h-27 w-auto" />
+        <img src="../../assets/images/15.svg" class="h-27 w-auto ml-2" />
+      </div>
+
+      <!-- Desktop layout, hidden on small -->
+      <div class="hidden sm:flex sm:flex-col sm:space-y-6">
+        <!-- First row: 6 icons -->
+        <div class="flex justify-center flex-wrapgap-y-6 sm:gap-x-22">
+          <img src="../../assets/images/Logo11.svg" class="h-18 w-auto" />
+          <img src="../../assets/images/1.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/2.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/3.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/4.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/5.svg" class="h-27 w-auto" />
+        </div>
+
+        <!-- Second row: 5 icons -->
+        <div class="flex justify-center flex-wrap gap-x-6 gap-y-6 sm:gap-x-19 mt-10">
+          <img src="../../assets/images/7.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/8.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/9.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/10.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/_Client logo mark.svg" class="h-16 w-auto mt-2 ml-5" />
+        </div>
+
+        <!-- Third row: 4 icons -->
+        <div class="flex justify-center flex-wrap gap-x-6 gap-y-6 sm:gap-x-16 mt-10">
+          <img src="../../assets/images/12.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/13.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/14.svg" class="h-27 w-auto" />
+          <img src="../../assets/images/15.svg" class="h-27 w-auto" />
+        </div>
+      </div>
+
+      <!-- CTA button -->
+      <div class="mt-10">
+        <button class="bg-emerald-600 text-white px-6 py-3 rounded-md transition-all duration-300 hover:bg-orange-500 hover:scale-105">
+          View All Integrations
+        </button>
+      </div>
     </div>
-
-    <!-- Second row: 5 icons -->
-    <div class="flex justify-center flex-wrap gap-x-12 gap-y-6 mb-6">
-      <img src="../../assets/images/7.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/8.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/9.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/10.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/_Client logo mark.svg" class="h-18 w-auto" />
-    </div>
-
-    <!-- Third row: 4 icons -->
-    <div class="flex justify-center flex-wrap gap-x-12 gap-y-6">
-      <img src="../../assets/images/12.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/13.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/14.svg" class="h-27 w-auto" />
-      <img src="../../assets/images/15.svg" class="h-27 w-auto" />
-    </div>
-
-    <div class="mt-10">
-      <button class="bg-emerald-600 text-white px-6 py-3 rounded-md transition-all duration-300 hover:bg-orange-500 hover:scale-105">
-  View All Integrations
-</button>
-    </div>
-  </div>
-</section>
-
+  </section>
 </div>
+
 
 <div class="text-center  py-12 space-y-16">
   <section class="flex flex-col bg-[#F8D57E]">
