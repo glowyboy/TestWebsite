@@ -330,35 +330,35 @@
         <img src="../../assets/images/15.svg" class="h-27 w-auto ml-2" />
       </div>
 
-      <!-- Desktop layout, hidden on small -->
-      <div class="hidden sm:flex sm:flex-col sm:space-y-6">
-        <!-- First row: 6 icons -->
-        <div class="flex justify-center flex-wrapgap-y-6 sm:gap-x-22">
-          <img src="../../assets/images/Logo11.svg" class="h-18 w-auto" />
-          <img src="../../assets/images/1.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/2.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/3.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/4.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/5.svg" class="h-27 w-auto" />
-        </div>
+    <!-- Desktop layout, hidden on small -->
+<div class="hidden sm:flex sm:flex-col sm:space-y-6">
+  <!-- First row: 6 icons -->
+  <div class="flex justify-center flex-wrap gap-y-6 gap-x-12 lg:gap-x-10 xl:gap-x-8">
+    <img src="../../assets/images/Logo11.svg" class="h-18 w-auto" />
+    <img src="../../assets/images/1.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/2.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/3.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/4.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/5.svg" class="h-27 w-auto" />
+  </div>
 
-        <!-- Second row: 5 icons -->
-        <div class="flex justify-center flex-wrap gap-x-6 gap-y-6 sm:gap-x-19 mt-10">
-          <img src="../../assets/images/7.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/8.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/9.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/10.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/_Client logo mark.svg" class="h-16 w-auto mt-2 ml-5" />
-        </div>
+  <!-- Second row: 5 icons -->
+  <div class="flex justify-center gap-y-6 gap-x-10 lg:gap-x-8 xl:gap-x-6 mt-10">
+    <img src="../../assets/images/7.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/8.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/9.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/10.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/_Client logo mark.svg" class="h-16 w-auto mt-2 ml-5" />
+  </div>
 
-        <!-- Third row: 4 icons -->
-        <div class="flex justify-center flex-wrap gap-x-6 gap-y-6 sm:gap-x-16 mt-10">
-          <img src="../../assets/images/12.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/13.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/14.svg" class="h-27 w-auto" />
-          <img src="../../assets/images/15.svg" class="h-27 w-auto" />
-        </div>
-      </div>
+  <!-- Third row: 4 icons -->
+  <div class="flex justify-center flex-wrap gap-y-6 gap-x-8 lg:gap-x-6 xl:gap-x-4 mt-10">
+    <img src="../../assets/images/12.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/13.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/14.svg" class="h-27 w-auto" />
+    <img src="../../assets/images/15.svg" class="h-27 w-auto" />
+  </div>
+</div>
 
       <!-- CTA button -->
       <div class="mt-10">
