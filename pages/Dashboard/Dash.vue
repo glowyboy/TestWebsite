@@ -194,7 +194,7 @@
     <!-- Testimonial 1 -->
     <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%]
                 flex flex-row items-center
-                max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
+                max-[435px]:flex-col max-[435px]:items-center max-[435px]:text-center max-[435px]:space-y-3">
       <!-- Avatar + Info -->
       <div class="flex flex-col items-center text-center md:w-1/3 px-2">
         <img src="../../assets/images/Lauren1.png" alt="Lauren M." class="w-25 h-25 rounded-full mb-3">
@@ -203,7 +203,7 @@
       </div>
 
       <!-- Stars + Testimonial -->
-      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4">
+      <div class="md:w-2/3 px-4 max-[431px]:px-0 max-[431px]:mt-4">
         <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5">
   <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5 transition-transform duration-200 hover:scale-125" />
   <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5 transition-transform duration-200 hover:scale-125" />
@@ -222,7 +222,7 @@
     <!-- Testimonial 2 -->
     <div class="bg-white p-6 rounded-2xl shadow-md w-full md:w-[48%] lg:w-[45%]
                 flex flex-row items-center
-                max-[430px]:flex-col max-[430px]:items-center max-[430px]:text-center max-[430px]:space-y-3">
+                max-[431px]:flex-col max-[431px]:items-center max-[431px]:text-center max-[431px]:space-y-3">
       <!-- Avatar + Info -->
       <div class="flex flex-col items-center text-center md:w-1/3 px-2">
         <img src="../../assets/images/David.png" alt="David B." class="w-25 h-25 rounded-full mb-3">
@@ -231,7 +231,7 @@
       </div>
 
       <!-- Stars + Testimonial -->
-      <div class="md:w-2/3 px-4 max-[430px]:px-0 max-[430px]:mt-4">
+      <div class="md:w-2/3 px-4 max-[431px]:px-0 max-[431px]:mt-4">
         <div class="flex justify-center md:justify-start text-yellow-500 text-lg mb-2 space-x-0.5">
   <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5 transition-transform duration-200 hover:scale-125" />
   <img src="../../assets/images/Star Icon.svg" alt="Star" class="w-5 h-5 transition-transform duration-200 hover:scale-125" />
@@ -348,18 +348,14 @@
 
 </div>
 
-
-
-
-<div class=" text-center px-4 py-12 space-y-16">
-<section class="flex flex-col bg-[#F8D57E]">
-    <!-- Main content -->
-    <div class="flex-grow px-4 pt-12">
+<div class="text-center  py-12 space-y-16">
+  <section class="flex flex-col bg-[#F8D57E]">
+    <!-- Container to limit max width on small screens -->
+    <div class="w-full max-w-screen-sm mx-auto flex-grow px-4 pt-12">
       <div class="text-center mb-8">
-        <h1 class=" font-extrabold max-w-[1280px] h-auto font-poppins font-bold text-[28px] sm:text-[35px] md:text-[42px] leading-[120%] sm:leading-[125%] md:leading-[130%] text-center tracking-[-0.02em] text-[#2D2D2D] mx-auto">
-  Get Landing Page UI Kit Today!
-</h1>
-
+        <h1 class="font-extrabold  h-auto font-poppins font-bold text-[28px] sm:text-[35px] md:text-[42px] leading-[120%] sm:leading-[125%] md:leading-[130%] text-center tracking-[-0.02em] text-[#2D2D2D] mx-auto">
+          Get Landing Page UI Kit Today!
+        </h1>
 
         <p class="mt-4 text-gray-800">
           Break Figma limits and explore the endless possibilities with Anima.
@@ -367,11 +363,10 @@
 
         <!-- Centered Button -->
         <div class="mt-6 flex justify-center">
-       <!-- Get Started Button with Icon -->
-<a href="#" class="flex items-center justify-center gap-2 px-5 py-3 w-[190px] h-[52px] bg-[#009379] text-white rounded-2xl font-semibold transition-all duration-300 hover:bg-orange-500 hover:scale-105">
-  <img src="../../assets/images/RocketLaunch.png" class="w-4 h-4" />
-  Get Started
-</a>
+          <a href="#" class="flex items-center justify-center gap-2 px-5 py-3 w-[190px] h-[52px] bg-[#009379] text-white rounded-2xl font-semibold transition-all duration-300 hover:bg-orange-500 hover:scale-105">
+            <img src="../../assets/images/RocketLaunch.png" class="w-4 h-4" />
+            Get Started
+          </a>
         </div>
       </div>
 
@@ -386,27 +381,20 @@
     </div>
 
     <footer class="bg-gray-900 text-white text-sm py-6 px-4">
-  <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
-    
-    <!-- Text left on all screens -->
-    <p class="text-left">© 2023 Anima’s Landing Page UI Kit.</p>
+      <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+        <p class="text-left">© 2023 Anima’s Landing Page UI Kit.</p>
 
-    <!-- Icons: above text (mobile), right side (desktop) -->
-    <div class="flex gap-3 md:gap-5 mr-10 md:justify-end">
-      <!-- Social icons -->
-      <img src="../../assets/images/icon1.png" alt="Icon 1"class="w-9 h-9" />
-<img src="../../assets/images/icon2.png" alt="Icon 2" class="w-9 h-9" />
-<img src="../../assets/images/icon3.png" alt="Icon 3" class="w-9 h-9" />
-<img src="../../assets/images/icon4.png" alt="Icon 4" class="w-9 h-9" />
-
-    </div>
-
-  </div>
-</footer>
-
-
+        <div class="flex gap-3 md:gap-5 mr-10 md:justify-end">
+          <img src="../../assets/images/icon1.png" alt="Icon 1" class="w-9 h-9" />
+          <img src="../../assets/images/icon2.png" alt="Icon 2" class="w-9 h-9" />
+          <img src="../../assets/images/icon3.png" alt="Icon 3" class="w-9 h-9" />
+          <img src="../../assets/images/icon4.png" alt="Icon 4" class="w-9 h-9" />
+        </div>
+      </div>
+    </footer>
   </section>
-  </div>
+</div>
+
 
 
 
